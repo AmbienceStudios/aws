@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
 import icon from "../assets/icon.png";
-import super1 from "../assets/boy2.webp";
-import release2 from "../assets/boy3.webp";
+import super1 from "../assets/boy2.png";
+import release2 from "../assets/boy3.png";
 
 export default function Free() {
   return (
