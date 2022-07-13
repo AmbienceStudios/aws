@@ -1,14 +1,14 @@
 import React from "react";
-import eth1 from "../assets/boy3.webp";
-import eth2 from "../assets/boy2.webp";
+import image1 from "../assets/boy3.png";
+import image2 from "../assets/boy2.png";
 
 export default function Like() {
   return (
     <div className="like">
       <div className="container">
         <div className="content">
-          <div className="image">
-            <img src={eth1} alt="eth1" />
+          <div className="imageA">
+            <img src={image1} alt="goldenBoy" />
           </div>
           <h1 className="title">GOLDEN BOY</h1>
           <h2 className="subtitle">GOLDEN BOY COLLECTION</h2>
@@ -20,8 +20,8 @@ export default function Like() {
           </p>
         </div>
         <div className="content">
-          <div className="image">
-            <img src={eth2} alt="eth2" />
+          <div className="imageB">
+            <img src={image2} alt="goldenBoy" />
           </div>
           <h1 className="title">FIERCE HEART</h1>
           <h2 className="subtitle">GOLDEN BOY COLLECTION</h2>

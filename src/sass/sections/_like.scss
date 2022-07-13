@@ -12,11 +12,24 @@
       padding: 3rem;
       border-radius: 2rem;
       align-items: center;
-      .image {
+     
+
+      .imageA {
+        margin: auto;
         img {
           border-radius: 350px;
-
+          transform: scale(.9);
         }
+ 
+      }
+
+      .imageB {
+        margin: auto;
+        img {
+          border-radius: 350px;
+        
+        }
+ 
       }
       .title {
         color: #c71919;
