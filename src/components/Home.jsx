@@ -8,21 +8,33 @@ export default function Home() {
           <p className="sub-title">A Decentralized Project</p>
           <h1 className="title">The Golden Boy Collection</h1>
           <p className="description"><strong>
-          Founded by Delonte Johnson.</strong>
+          Founded by Delonte Johnson.</strong></p>
           <br/>
+          <p className="description">
           We are a commnuity of warriors who have come from all walks of life who share the same vision to make the world a better place
           </p>
+
+        <div className="notice-container">
           <div className="notice">
-          Jet urban clothing admin locked the opensea account @urbanwarriors wallet address <br/> 
-          ( 0x13E051C962Ed2870F9121bF5F827F653355CA10D ) as a security measure <br/> 
+          Jet urban clothing admin locked the opensea account @urbanwarriors wallet address
           </div>
+
+           
+          <div className="notice2">
+          0x13E051C962Ed2870F9121bF5F827F653355CA10D as a security measure 
+          </div>
+         
           <div className="notice">
-          If you own any from this collection you will not be able to buy,sell or transfer!!!! <br/> 
+          If you own any from this collection you will not be able to buy,sell or transfer!!!!
           </div>
+
           <div className="notice">
           All previous holders of the golden boy collection will be air dropped the nfts the previous when minting from (official name & link to this site) goes live
           </div>
+          </div>
+          <div className="btn-l">
           <button>Learn More</button>
+          </div>
         </div>
         <div className="image-container">
           <div className="image">
