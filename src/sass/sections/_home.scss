@@ -38,12 +38,7 @@
 
 
 
-      .btn-l {
-          position: relative;
-          margin:auto;
-          left: -2rem;
-          padding-top: 2rem;
-      }
+  
     }
     .image-container {
       text-align: center;
@@ -118,7 +113,7 @@
   }
 }
 
-@media screen and (min-width: 280px) and (max-width: 420px) {
+@media screen and (min-width: 280px) and (max-width: 430px) {
   .home {
     padding: 1rem;
     position: relative;

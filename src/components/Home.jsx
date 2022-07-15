@@ -32,9 +32,9 @@ export default function Home() {
           All previous holders of the golden boy collection will be air dropped the nfts the previous when minting from (official name & link to this site) goes live
           </div>
           </div>
-          <div className="btn-l">
+         
           <button>Learn More</button>
-          </div>
+        
         </div>
         <div className="image-container">
           <div className="image">

@@ -21,7 +21,7 @@ export default function Like() {
         </div>
         <div className="container">
         <div className="content">
-          <div className="imageB">
+          <div className="imageA">
             <img src={image2} alt="goldenBoy" />
           </div>
           <h1 className="title">FIERCE HEART</h1>

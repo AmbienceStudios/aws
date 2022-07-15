@@ -1,7 +1,9 @@
 .like {
   margin: 5rem 0;
   .container {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     .content {
@@ -70,7 +72,8 @@
 
 
 
-@media screen and (min-width: 280px) and (max-width: 420px) {
+
+@media screen and (min-width: 280px) and (max-width: 430px) {
 
   .like {
     // margin: 5rem 0;
@@ -115,9 +118,9 @@
           margin: auto;
           img {
             border-radius: 350px;
-            transform: scale(.8);
+            transform: scale(1);
             position: relative;
-            left: -6rem;
+            left: -4.5rem;
           
           }
    
@@ -147,4 +150,93 @@
 
 
 
+
+
+
+
+@media screen and (max-width: 430px) {
+
+  .like {
+    // margin: 5rem 0;
+    
+    .container {
+      transform: scale(1);
+      
+      position: relative;
+      // width: screen;
+      // height: screen;
+      // margin: auto;
+      left: 0rem;
+      top: -10rem;
+      display: flex;
+      flex-direction: column;
+      gap: 12rem;
+      padding-bottom: 3rem;
+      
+
+      // grid-template-columns: 1fr 1fr;
+      // gap: 4rem;
+      .content {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        // padding: 3rem;
+        border-radius: 2rem;
+        justify-content: center;
+            align-items: center;
+            align-content: center;
+
+
+
+        padding-bottom: 3rem;
+        // margin: auto;
+       
+  
+        .imageA {
+          
+          // margin: auto;
+          img {
+            border-radius: 350px;
+            transform: scale(.8);
+            width: 125%;
+            margin-left: 5.9rem;
+            margin-right: 4rem;
+            // justify-content: center;
+         
+            // align-content: center;
+            
+            // position: relative;
+            
+          }
+   
+        }
+  
+     
+        .title {
+          color: #c71919;
+  
+     
+        }
+  
+        .subtitle {
+          color:rgb(232, 149, 32);
+          text-align: center;
+       }
+        .description {
+          color: #141414;
+          letter-spacing: 0.1rem;
+          line-height: 1.5rem;
+          font-weight: 700;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+
+
+
+
+}
 }
