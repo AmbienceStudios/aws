@@ -19,6 +19,7 @@ export default function Like() {
           HIS UNIQUE PERSONALITY TRAITS ARE STRENGTH,CREATIVITY & INTROVERT.
           </p>
         </div>
+        <div className="container">
         <div className="content">
           <div className="imageB">
             <img src={image2} alt="goldenBoy" />
@@ -30,6 +31,7 @@ export default function Like() {
           IT BROKE HIM, HE NEVER LOOKED AT THE WORLD THE SAME. HE THEN SWORE HIS MOTHER'S NAME WOULD LIVE ON THROUGH HIM. 
           (IT'S HARD TO HANDLE A LOSS OF A LOVED ONE, WE MUST FIND A WAY TO HAVE THEIR NAMES LIVE ON)
           </p>
+                 </div>
                  </div>
       </div>
     </div>
