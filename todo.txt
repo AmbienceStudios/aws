@@ -23,7 +23,7 @@
     - Will have a Read More button to take users to the "About" page to read the back story of the project.
     - Keep it short and simple but engaging enough for users to want to learn more
 
-// Utilites //
+// Utilites // - Added 
 
 - Need to add a section to display the Utilites 
     - this will be a 3-6 items with icons/images and a title/descriptions
