@@ -10,7 +10,7 @@ export default function SuperRare() {
       image: super1,
       series: "1st Gen",
       title: "Golden Boy",
-      price: 2.99,
+      price: 4.24,
       tag: 12983,
       time: 1,
     },
@@ -18,7 +18,7 @@ export default function SuperRare() {
       image: super2,
       series: "1st Gen",
       title: "Golden Boy",
-      price: 2.99,
+      price: 4.39,
       tag: 12983,
       time: 1,
     },
@@ -26,7 +26,7 @@ export default function SuperRare() {
       image: super3,
       series: "1st Gen",
       title: "Golden Boy",
-      price: 2.99,
+      price: 4.89,
       tag: 12983,
       time: 1,
     },
@@ -34,7 +34,7 @@ export default function SuperRare() {
       image: super4,
       series: "1st Gen",
       title: "Golden Boy",
-      price: 2.99,
+      price: 4.36,
       tag: 12983,
       time: 1,
     },
@@ -42,9 +42,9 @@ export default function SuperRare() {
   return (
     <div className="super-rare">
       <div className="title-container">
-        <h2 className="title">1 of 1's Golden Boy Collection</h2>
+        <h2 className="title">NFT Collection Teaser</h2>
         <p className="description">
-          We have released four limited edition Golden Boy NFT's
+          Preview of the Golden Boy Collection! 
         </p>
       </div>
       <div className="cards">

@@ -99,8 +99,8 @@
         .ellipse {
           z-index: -1;
           position: absolute;
-          height: 15rem;
-          width: 15rem;
+          height: 5rem;
+          width: 5rem;
           filter: blur(100px);
         }
         .pink {
@@ -124,7 +124,7 @@
   .home {
     padding: 1rem;
     position: relative;
-    overflow-x: hidden;
+    
     margin-top: 1rem;
     .container {
       
@@ -145,7 +145,7 @@
           letter-spacing: 0.1rem;
           font-size: .6rem;
           position: relative;
-          
+          left: -1.5rem;
           text-align: center;
         }
         .title {
@@ -153,6 +153,7 @@
           font-size: 1.5rem;
           margin: auto;
           position: relative;
+          left: -1.6rem;
        
         }
         .description {
@@ -242,15 +243,15 @@
           img {
             height:30rem;
             position: relative;
-            left: 3rem;
-            
+            left: 1rem;
+            width: 120%;
             bottom: 25rem;
           }
         }
         .ellipse-container {
           .ellipse {
-            height: 6rem;
-            width: 8rem;
+            height: 4rem;
+            width: 4rem;
             filter: blur(100px);
           }
           .pink {

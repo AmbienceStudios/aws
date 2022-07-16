@@ -8,7 +8,7 @@ export default function Home() {
           <p className="sub-title">A Decentralized Project</p>
           <h1 className="title">The Golden Boy Collection</h1>
           <p className="description"><strong>
-          Founded by Delonte Johnson.</strong></p>
+          Founded by Jet Urban Clothing.</strong></p>
           <br/>
           <p className="description">
           We are a commnuity of warriors who have come from all walks of life who share the same vision to make the world a better place

@@ -15,12 +15,12 @@ export default function Card({ image, series, title, price, tag, time }) {
           <h4 className="card-title">{title}</h4>
           <div className="card-price">
             <img src={superEth} alt="super eth" />
-            <h4>{price} ETH</h4>
+            <h4>{price}</h4>
           </div>
         </div>
         <div className="card-sub-details">
           <span>#{tag}</span>
-          <span>{time} day left</span>
+          <p>{time} day left</p>
         </div>
       </div>
     </div>

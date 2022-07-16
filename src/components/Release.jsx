@@ -8,24 +8,24 @@ export default function Release() {
   return (
     <div className="releases">
        <div className="title-container">
-        <h2 className="title-t">Road Map</h2>
+        <h2 className="title-t">ROAD MAP</h2>
         <p className="description-t">
-          The Journey to the Warriors Stadium!
+        The journey to Urban Warriors stadium in the metaverse
         </p>
       </div>
       <div className="release orange">
         <div className="content">
           <h2 className="title">PHASE 1</h2>
           <p className="description">
-                Launch Urban Warriors Discord <br/>
-                Launch Urban Warriors GOLDEN BOY COLLECTION <br/> 
+                Launch Urban Warriors Discord. <br/>
+                Launch Urban Warriors GOLDEN BOY COLLECTION. <br/> 
                 <div className="after">
                 <div className="description2">
                 <strong>Phase 2 Milestone Requirements:</strong> <br/> 
                 </div>
-                75 GIVEAWAYS & <br/> 
-                75 WHITELIST SPOTS ARE GONE & <br/> 
-                3K FOLLOWERS ON TWITTER 
+                75 GIVEAWAYS. <br/> 
+                75 WHITELIST SPOTS ARE GONE. <br/> 
+                3K FOLLOWERS ON TWITTER.
                 </div>
           </p>
           {/* <p className="description">
@@ -61,23 +61,23 @@ export default function Release() {
           <h2 className="title">PHASE 2</h2>
           <p className="description">
                <div className="description2">
-               <strong> Launch  WRECKLESS HANDS <br/> (2ND GEN)
+               <strong> Launch  WRECKLESS HANDS (2ND GEN)
                </strong> 
                </div> 
-                IN GAME COMPATIBLE<br/> 
-                AUGMENTED REALITY DIGITAL CANVASES <br/>
-                AUGMENTED REALITY SOCIAL MEDIA FILTERS<br/> 
-                DIY SCREEN PRINTING TUTORIALS <br/>
-                MERCHANDISE<br/> 
+                IN GAME COMPATIBLE.<br/> 
+                AUGMENTED REALITY DIGITAL CANVASES. <br/>
+                AUGMENTED REALITY SOCIAL MEDIA FILTERS.<br/> 
+                DIY SCREEN PRINTING TUTORIALS. <br/>
+                MERCHANDISE.<br/> 
                 <div className="after">
 
                 <div className="description2">
                 <strong>Launch JET URBAN CLOTHING WEARABLES </strong> <br/> 
                </div> 
        
-                IN GAME COMPATIBLE <br/> 
-                AR INTERACTIVE EXPERIENCE & <br/> 
-                MERCHANDISE 
+                IN GAME COMPATIBLE. <br/> 
+                AR INTERACTIVE EXPERIENCE. <br/> 
+                MERCHANDISE.
                 </div>
                 </p>
             
@@ -91,7 +91,7 @@ export default function Release() {
         <div className="content">
           <h2 className="title">PHASE 3</h2>
           <p className="description">
-                Launch Augmented Reality APP <br/>
+                LAUNCH AUGMENTED REALITY APP<br/>
                 
                 {/* <div className="after">
                 <strong>Phase 2 Milestone Requirements:</strong> <br/> 
@@ -132,7 +132,6 @@ export default function Release() {
         <div className="content">
           <h2 className="title">PHASE 4</h2>
           <p className="description">
-          Launch  WRECKLESS HANDS (2ND GEN) <br/>
                 Launch Urban Warriors Native Token<br/> 
                 Launch Rewards Smart contract <br/>
                 Launch Breeding smart contract <br/> 
@@ -146,9 +145,9 @@ export default function Release() {
         <div className="content">
           <h2 className="title">PHASE 5</h2>
           <p className="description">
-                • Launch Digital Real Estate Property <br/>
-                • IN GAME COMPATIBLE <br/> 
-                • RENT OR LEASE  DIGITAL REAL ESTATES
+                Launch Digital Real Estate Property <br/>
+                IN GAME COMPATIBLE <br/> 
+                RENT OR LEASE  DIGITAL REAL ESTATES
 
             
           </p>
@@ -183,7 +182,7 @@ export default function Release() {
         <div className="content">
           <h2 className="title">PHASE 6</h2>
           <p className="description">
-                • Launch into P2E GAMING  METAVERSE <br/>
+                Launch into P2E GAMING  METAVERSE <br/>
                
           </p>
         </div>
