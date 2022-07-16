@@ -22,7 +22,8 @@ export default function Free() {
             These are the ultilities of holding a Golden Boy
           </p>
 
-          <div className="slider"> </div>
+          <div className="slider"> <p> NFT Ultilites # 1 </p> 
+          </div>
 
         </div>
 
