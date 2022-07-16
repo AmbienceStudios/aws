@@ -1,0 +1,61 @@
+// Welcome section //
+
+- Add 3D Boxer to replace the image Boxer
+    - Right Side (Image/3D)
+        - This will be rotating by itself in 3D space 
+        - The user will be able to touch/click and drag the 3D boxer to control the rotation
+        - Once user stops intertacting with 
+    - Left Side (Text)
+        - Placement of text needs to be aligned on all devices 
+        - Button needs to be aligned on all devices 
+
+
+// Golden Boy Feature Section //
+
+- Need to polish the containers and add styles to make the cards stand out. 
+    - Image aligned on all devices
+    - Find better font to use for headers, sub-headers and descriptions
+    - Use Brand Colors 
+
+// Warrior Story //
+
+- Need to have a headline or visual repsent the story 
+    - Will have a Read More button to take users to the "About" page to read the back story of the project.
+    - Keep it short and simple but engaging enough for users to want to learn more
+
+// Utilites //
+
+- Need to add a section to display the Utilites 
+    - this will be a 3-6 items with icons/images and a title/descriptions
+    - Need the text for the Utilites
+
+
+// Collection //
+
+- Needs updated artwork for the collection part
+    - Need to remove OpenSea References
+    - Need to display the artwork in full so it doesn't cut off 
+    - aligned for all devices
+
+// Road Map //
+
+- Background will be updated to match branding of the website
+    - Need to find offical font for header and descriptions 
+    - Need to display different images on each phase, some being 3D and others being 2D images. 
+
+
+// Battle Zone //
+
+- This section will be highlighted in the upcoming update when development begins.
+    - Will have a Header and descriptions that states what's upcoming
+    - There will be a Button to allow users to signup for updates.
+    - There will be 3D interactable objects like Boxer, Gloves etc..
+
+
+
+
+// Footer //
+- Need to organize and update the links to what will be on the page
+    - Need to establish what pages and resources will be on the website
+    - Need to connect social media links to the buttons
+    - 

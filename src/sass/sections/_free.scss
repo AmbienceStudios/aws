@@ -3,13 +3,24 @@
   margin: 5rem 0;
   .container {
     display: flex;
-    background: rgb(36,0,0);
-    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(121,9,9,1) 35%, rgb(219, 27, 27) 100%);    
+    background: #181818;
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, #181818, 35%, #181818, 100%);    
     position: relative;
-    height: 25rem;
-    border-radius: 1rem;
-    overflow: hidden;
-    z-index: 1;
+    width: screen;
+    height: screen;
+    margin: auto;
+      left: 0rem;
+      top: 0rem;
+      flex-direction: column;
+      gap: 0rem;
+      padding-bottom: 3rem;
+      border-radius: 38px;
+      border: solid;
+      border-width: 2px;
+      // border-color: rgb(255, 42, 42);
+      border-color: rgb(246, 169, 61);
+      
+      height: 800px;
     .background {
       z-index: -1;
       .ellipse {
@@ -17,6 +28,7 @@
         height: 100%;
         width: 28rem;
         border-radius: 100%;
+    
         filter: blur(100px);
       }
       .pink {
@@ -31,11 +43,14 @@
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
-      padding-top: 3rem;
-      padding-left: 5rem;
-      font-size: 1.3rem;
+      padding: auto;
+     font-size: 1.3rem;
       margin-top: auto;
       margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      position: relative;
       .image {
         img {
         }
@@ -45,8 +60,24 @@
         color: white
       }
       .description {
-        color: white
+        color: rgb(219, 27, 27);
       }
+
+      .slider {
+        width: 900px;
+        height: 600px;
+        background: rgb(18, 18, 18);
+        margin: auto;
+        border-radius: 20px;
+        position: relative;
+        border: solid;
+    border-width: 2px;
+    // border-color: rgb(255, 42, 42);
+    border-color: rgb(246, 169, 61);
+    
+      }
+
+
     }
   }
   .cards {
@@ -83,34 +114,140 @@
       }
     }
   }
-  @media screen and (min-width: 280px) and (max-width: 1080px) {
-    margin: 0;
-    .container {
-      padding: 1rem 2rem;
-      height: 40vh;
-      border-radius: 0;
-      .background {
-        .pink {
-          left: -70%;
+
+}
+
+  @media screen and (max-width: 430px) {
+   
+
+    .free {
+      position: relative;
+      margin: 5rem 0;
+      .container {
+        display: flex;
+        background: #181818;
+        background: linear-gradient(90deg, rgba(36,0,0,1) 0%, #181818, 35%, #181818, 100%);    
+        position: relative;
+        width: screen;
+        height: screen;
+        margin: auto;
+          left: 0rem;
+          top: 0rem;
+          flex-direction: column;
+          gap: 0rem;
+          padding-bottom: 3rem;
+          border-radius: 38px;
+          border-width: 2px;
+          // border-color: rgb(255, 42, 42);
+          border-color: rgb(246, 169, 61);
+          height: 800px;
+
+        .background {
+          z-index: -1;
+          .ellipse {
+            position: absolute;
+            height: 100%;
+            width: 28rem;
+            border-radius: 100%;
+        
+            filter: blur(100px);
+          }
+          .pink {
+    
+          }
+          .green {
+          
+          }
         }
-        .green {
-          right: -100%;
+        .content {
+          z-index: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 1.5rem;
+          padding: 2rem;
+          font-size: 1.3rem;
+          width: screen;
+          height: screen;
+          margin-top: 2rem;
+          margin-bottom: auto;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          position: relative;
+          .image {
+            img {
+            }
+          }
+          .title {
+            font-size: 2rem;
+            color: white;
+    
+           
+          }
+          .description {
+            color: rgb(245, 67, 67);
+            padding: 1rem;
+          }
+    
+          .slider {
+            width: 300px;
+            height: 450px;
+            background: rgb(255, 250, 250);
+            margin: auto;
+            border-radius: 20px;
+            position: relative;
+            border-width: 2px;
+            // border-color: rgb(255, 42, 42);
+            border-color: rgb(246, 169, 61);
+  
+          }
+    
+    
         }
       }
-      .content {
-        padding: 0;
-        font-size: 16px;
-        gap: 1rem;
-        .title {
-          font-size: 22px;
+      .cards {
+        display: flex;
+        position: absolute;
+        top: -2rem;
+        right: 40%;
+        z-index: 999;
+        transform: scale(1.5);
+        .card1 {
+          top: 0;
+          position: absolute;
+          transform: rotate(-10deg);
+          z-index: 3;
+          font-size: 0.6rem;
+          .card-image {
+            img {
+              height: 10rem;
+              width: 12rem;
+            }
+          }
+        }
+        .card2 {
+          top: 0;
+          z-index: 2;
+          position: absolute;
+          left: 10rem;
+          transform: rotate(5deg);
+          font-size: 0.7rem;
+          .card-image {
+            img {
+              height: 10rem;
+            }
+          }
         }
       }
-    }
-    .cards {
-      .card1,
-      .card2 {
-        zoom: 0.3;
-      }
-    }
+
+
+
+
+
+
+
+
   }
 }
+
+

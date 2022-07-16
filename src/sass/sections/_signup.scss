@@ -1,7 +1,7 @@
 .signup {
-  border-top: 0.1rem solid white;
+  // border-top: 0.1rem solid white;
   border-bottom: 0.1rem solid white;
-  padding-top: 4rem;
+  padding-top: 15rem;
   overflow-y: hidden;
   .container {
     display: grid;
@@ -91,36 +91,96 @@
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
   .signup {
-    padding: 1rem;
-    position: relative;
-    overflow-x: hidden;
-    margin-top: 1rem;
+    // border-top: 0.1rem solid white;
+    border-bottom: 0.1rem solid white;
+    padding-top: 15rem;
+    overflow-y: hidden;
     .container {
-      font-size: 16px;
-      grid-template-columns: 0.7fr;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      font-size: 18px;
+      .content {
+        margin-top: -5rem;
+        margin-left: 3rem;
+        width: 170%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+        .sub-title {
+          color: rgb(230, 40, 40);
+          text-transform: uppercase;
+          letter-spacing: 0.1rem;
+        }
+        .title {
+          color: var(--accent-color1);
+        }
+        .description {
+          color: var(--accent-color3);
+        }
+  
+        .notice {
+          padding: 1rem;
+          color: var(--accent-color3);
+          font-size: 1rem;
+        }
+  
+        button {
+          color: var(--accent-color1);
+          background-color: var(--background);
+          font-weight: bold;
+          padding: 1rem 3rem;
+          border-radius: 2rem;
+          box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+          border: solid 3px transparent;
+          background-image: linear-gradient(
+              rgba(255, 255, 255, 0),
+              rgba(255, 255, 255, 0)
+            ),
+            linear-gradient(101deg, rgb(230, 40, 40), rgb(230, 40, 40));
+          background-origin: border-box;
+          background-clip: content-box, border-box;
+          box-shadow: 2px 1000px 1px var(--background) inset;
+          transition: 0.5s ease-in-out;
+          cursor: pointer;
+          &:hover {
+            box-shadow: none;
+          }
+        }
+      }
       .image-container {
-        position: absolute;
-        right: -5%;
-        top: 30%;
+        text-align: center;
+        position: relative;
+        z-index: 10;
         .image {
           img {
-            height: 10rem;
+            position: relative;
+            top: 15rem;
+            left: -20rem;
+            transform: scale(.8);
           }
         }
         .ellipse-container {
           .ellipse {
-            height: 6rem;
-            width: 6rem;
-            filter: blur(30px);
+            z-index: -100;
+            position: absolute;
+            top: 50rem;
+            left: -20rem;
+            filter: blur(100px);
           }
           .pink {
-            right: 10%;
+            top: 40%;
+            right: 40%;
+            background-color: rgba(121,9,9,1);
           }
           .orange {
-            left: -5%;
+            bottom: 40%;
+            left: 40%;
+            background-color: rgb(230, 40, 40);
           }
         }
       }
     }
   }
+
 }

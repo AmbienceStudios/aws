@@ -1,5 +1,5 @@
 .home {
-  margin-top: 6rem;
+  margin-top: 2rem;
   margin-bottom: 12rem;
   padding: 24px;
   .container {
@@ -12,28 +12,64 @@
       flex-direction: column;
       gap: 2rem;
       align-items: flex-start;
+    
       .sub-title {
         color: rgb(219, 27, 27);
         color: linear-gradient(90deg, rgb(219, 27, 27) 0%, rgba(121,9,9,1) 35%, rgba(36,0,0,1) 100%);
         text-transform: uppercase;
         letter-spacing: 0.1rem;
+     
       }
       .title {
         color: var(--accent-color1);
+       
       }
       .description {
         color: var(--accent-color3);
+    
       }
 
+
+
+      button {
+        color: var(--accent-color1);
+        background-color: var(--background);
+        font-weight: bold;
+        padding: 1rem 3rem;
+        border-radius: 2rem;
+        box-shadow: 0 0 6px 0 rgba(212, 96, 96, 0.5);
+        border: solid 3px transparent;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0)
+          ),
+          linear-gradient(90deg, rgb(219, 27, 27) 0%, rgba(121,9,9,1) 35%, rgb(230, 40, 40) 100%);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 1000px 1px var(--background) inset;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        &:hover {
+        box-shadow: none;
+
+        }
+      }
+
+
+
+
+
       .notice {
-        color: var(--accent-color3);
+        color: rgb(214, 214, 214);
         font-size: 1rem;
+        line-height: 2rem;
+       
       }
 
       .notice2 {
         color: red;
         font-size: 1rem;
-        text-align: center;
+      
       }
 
 

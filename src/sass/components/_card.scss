@@ -1,9 +1,14 @@
 .card {
   background-color: var(--card-color);
   width: max-content;
-  border-radius: 1rem;
+  border-radius: 10px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(246, 169, 61);
   &-image {
     img {
+      border-radius: 10px;
+      padding: .5rem;
     }
   }
   &-content {
@@ -11,9 +16,12 @@
     flex-direction: column;
     gap: 0.5rem;
     padding: 1rem;
+    
+    
     .card-heading {
       display: flex;
       justify-content: space-between;
+      
       .card-series {
         color: var(--orange);
         text-transform: uppercase;

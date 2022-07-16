@@ -1,53 +1,60 @@
 .like {
-  margin: 5rem 0;
+  margin:  0;
   .container {
+    flex: 2;
     display: flex;
     flex-direction: row;
     
-    grid-template-columns: 1fr 1fr;
+
     gap: 4rem;
     .content {
-      background-color: #fff;
+      background: rgb(36,0,0);
+      background: linear-gradient(0deg, #111 0%, #111 38%, rgb(84, 14, 14) 100%);   
+
+      flex: 1.75;
       display: flex;
       flex-direction: column;
-      gap: .5rem;
+    
       padding: 3rem;
       border-radius: 2rem;
       align-items: center;
+      border: solid;
+      border-width: 2px;
+      border-color: rgb(246, 169, 61);
      
 
       .imageA {
-        margin: auto;
+        
         img {
           border-radius: 350px;
           transform: scale(.9);
+          border: solid;
+          border-width: 4px;
+          border-color: #fff;
         }
  
       }
 
-      .imageB {
-        margin: auto;
-        img {
-          border-radius: 350px;
-        
-        }
- 
-      }
+
       .title {
         color: #c71919;
+        padding: .5rem;
 
    
       }
 
       .subtitle {
         color:rgb(232, 149, 32);
+        padding: .5rem;
      }
       .description {
-        color: #141414;
+        color: #ffffff;
         letter-spacing: 0.1rem;
         line-height: 1.5rem;
         font-weight: 700;
         text-align: center;
+        margin: auto;
+        padding: 2rem;
       }
     }
   }
@@ -136,7 +143,7 @@
           text-align: center;
        }
         .description {
-          color: #141414;
+          color: #f8f8f8;
           letter-spacing: 0.1rem;
           line-height: 1.5rem;
           font-weight: 700;
@@ -224,7 +231,7 @@
           text-align: center;
        }
         .description {
-          color: #141414;
+          color: #f6f6f6;
           letter-spacing: 0.1rem;
           line-height: 1.5rem;
           font-weight: 700;

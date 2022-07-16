@@ -55,7 +55,7 @@ function App() {
       <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
       <Like />
-      {/* <Free /> */}
+      <Free />
       {/* <Clients /> */}
       <SuperRare />
       <Release />

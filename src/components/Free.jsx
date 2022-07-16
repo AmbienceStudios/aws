@@ -12,17 +12,34 @@ export default function Free() {
           <div className="ellipse pink"></div>
           <div className="ellipse green"></div>
         </div>
+
         <div className="content">
           <div className="image">
             {/* <img src={icon} alt="icon" /> */}
           </div>
-          <h2 className="title">Golden Boy Collection Giveaway!</h2>
+          <h2 className="title">Golden Boy Ultilites</h2>
           <p className="description">
-            Sign up today to enter a chance to wain a Golden Boy when we launch
+            These are the ultilities of holding a Golden Boy
           </p>
+
+          <div className="slider"> </div>
+
         </div>
+
+      
+
+
+
       </div>
-      <div className="cards">
+
+    </div>
+  );
+}
+
+
+
+
+      {/* <div className="cards">
         <div className="card1">
           <Card
             image={super1}
@@ -43,7 +60,4 @@ export default function Free() {
             time={30}
           />
         </div>
-      </div>
-    </div>
-  );
-}
+      </div> */}

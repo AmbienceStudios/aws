@@ -80,6 +80,32 @@ footer {
     .upper {
       flex-direction: column;
       gap: 2rem;
+      position: relative;
+      top: -10rem;
+      .brand-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        .brand {
+          img {
+            transform: scale(.2);
+            position: relative;
+            left: -420px;
+            top: 100px;
+          }
+        }
+
+        p {
+
+        }
+        ul {
+          list-style-type: none;
+          display: flex;
+          gap: 1rem;
+          li {
+          }
+        }
+      }
       .links {
         display: grid;
         grid-template-columns: 1fr 1fr;
