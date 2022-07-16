@@ -2,7 +2,9 @@
   // border-top: 0.1rem solid white;
   border-bottom: 0.1rem solid white;
   padding-top: 15rem;
+  padding-bottom: 15rem;
   overflow-y: hidden;
+  overflow-x: hidden;
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,6 +38,7 @@
         color: var(--accent-color1);
         background-color: var(--background);
         font-weight: bold;
+      
         padding: 1rem 3rem;
         border-radius: 2rem;
         box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
@@ -102,7 +105,7 @@
       .content {
         margin-top: -5rem;
         margin-left: 3rem;
-        width: 170%;
+        width: 160%;
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -130,6 +133,7 @@
           background-color: var(--background);
           font-weight: bold;
           padding: 1rem 3rem;
+       
           border-radius: 2rem;
           box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
           border: solid 3px transparent;
@@ -155,9 +159,9 @@
         .image {
           img {
             position: relative;
-            top: 15rem;
-            left: -20rem;
-            transform: scale(.8);
+            top: -8rem;
+            left: 20rem;
+            transform: scale(5);
           }
         }
         .ellipse-container {
@@ -169,7 +173,7 @@
             filter: blur(100px);
           }
           .pink {
-            top: 40%;
+            top: 99%;
             right: 40%;
             background-color: rgba(121,9,9,1);
           }

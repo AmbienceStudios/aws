@@ -8,6 +8,8 @@
     font-size: 32px;
     .content {
       margin-top: 3rem;
+      margin-left: 0%;
+      text-align: center;
       display: flex;
       flex-direction: column;
       gap: 2rem;
@@ -22,6 +24,7 @@
       }
       .title {
         color: var(--accent-color1);
+      
        
       }
       .description {
@@ -51,6 +54,8 @@
         cursor: pointer;
         &:hover {
         box-shadow: none;
+        width: 50%;
+        
 
         }
       }
@@ -113,41 +118,7 @@
   }
 }
 
-@media screen and (min-width: 280px) and (max-width: 1080px) {
-  .home {
-    padding: 1rem;
-    position: relative;
-    overflow-x: hidden;
-    margin-top: 1rem;
-    .container {
-      font-size: 16px;
-      grid-template-columns: 0.7fr;
-      .image-container {
-        position: absolute;
-        right: -10%;
-        top: 30%;
-        .image {
-          img {
-            height: 10rem;
-          }
-        }
-        .ellipse-container {
-          .ellipse {
-            height: 6rem;
-            width: 6rem;
-            filter: blur(30px);
-          }
-          .pink {
-            right: 10%;
-          }
-          .orange {
-            left: -5%;
-          }
-        }
-      }
-    }
-  }
-}
+
 
 @media screen and (min-width: 280px) and (max-width: 430px) {
   .home {
@@ -161,19 +132,20 @@
 
       .content {
         margin-top: 25rem;
-  
+      
         display: flex;
         flex-direction: column;
         gap: 2rem;
         align-items: flex-start;
         .sub-title {
+          margin: auto;
           color: rgb(219, 27, 27);
           color: linear-gradient(90deg, rgb(219, 27, 27) 0%, rgba(121,9,9,1) 35%, rgba(36,0,0,1) 100%);
           text-transform: uppercase;
           letter-spacing: 0.1rem;
           font-size: .6rem;
           position: relative;
-          left: 5.2rem;
+          
           text-align: center;
         }
         .title {
@@ -181,7 +153,7 @@
           font-size: 1.5rem;
           margin: auto;
           position: relative;
-          left: -2rem;
+       
         }
         .description {
           color: var(--accent-color3);
@@ -190,7 +162,7 @@
           padding-right: 20%;
           position: relative;
           text-align: center;
-          left: .5rem;
+          left: 1.5rem;
         }
   
         .notice {
@@ -201,7 +173,7 @@
           padding-right: 20%;
           position: relative;
           text-align: center;
-          left: .5rem;
+          left: 1.5rem;
           
           }
 
@@ -214,7 +186,7 @@
        
             position: relative;
             text-align: center;
-            left: -2rem;
+            left: -1rem;
             padding-top: 2rem;
             padding-bottom: 2rem;
             
@@ -247,8 +219,10 @@
         &:hover {
           box-shadow: none;
         position: relative;
-        align-items: center;
-        justify-content: center;
+       
+   
+        width: 50%;
+        
         }
       }
 
@@ -268,22 +242,22 @@
           img {
             height:30rem;
             position: relative;
-            left: 0rem;
+            left: 3rem;
             
-            bottom: 22rem;
+            bottom: 25rem;
           }
         }
         .ellipse-container {
           .ellipse {
             height: 6rem;
-            width: 6rem;
-            filter: blur(30px);
+            width: 8rem;
+            filter: blur(100px);
           }
           .pink {
-            right: 10%;
+            right: 0%;
           }
           .orange {
-            left: -5%;
+            left: 10%;
           }
         }
       }
