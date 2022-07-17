@@ -65,8 +65,8 @@
       .image {
         img {
           position: relative;
-          top: -10rem;
-          transform: scale(.5);
+          top: 0rem;
+          transform: scale(1);
         }
       }
       .ellipse-container {
@@ -96,14 +96,14 @@
   .signup {
     // border-top: 0.1rem solid white;
     border-bottom: 0.1rem solid white;
-    padding-top: 15rem;
+    padding-top: 5rem;
     overflow-y: hidden;
     .container {
       display: grid;
       grid-template-columns: 1fr 1fr;
       font-size: 18px;
       .content {
-        margin-top: -5rem;
+        margin-top: 0rem;
         margin-left: 3rem;
         width: 160%;
         display: flex;

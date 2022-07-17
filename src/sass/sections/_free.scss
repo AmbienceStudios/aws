@@ -67,14 +67,21 @@
         width: 900px;
         height: 600px;
         background: rgb(18, 18, 18);
-        margin: auto;
         border-radius: 20px;
         position: relative;
+        margin: auto;
         border: solid;
     border-width: 2px;
     // border-color: rgb(255, 42, 42);
     border-color: rgb(246, 169, 61);
-    
+    color: white;
+
+          p {
+            padding-top: 30%;
+            margin: auto;
+          
+
+          }
       }
 
 
@@ -119,18 +126,21 @@
 
   @media screen and (max-width: 430px) {
    
+    body {
+  
+    }
 
     .free {
-      position: relative;
-      margin: 5rem 0;
+      // position: relative;
+      // margin: 5rem 0;
       .container {
         display: flex;
         background: #181818;
         background: linear-gradient(90deg, rgba(36,0,0,1) 0%, #181818, 35%, #181818, 100%);    
         position: relative;
-        width: screen;
+        // width: screen;
         height: screen;
-        margin: auto;
+        // margin: auto;
           left: 0rem;
           top: 0rem;
           flex-direction: column;
@@ -147,7 +157,7 @@
           .ellipse {
             position: absolute;
             height: 100%;
-            width: 28rem;
+            // width: 28rem;
             border-radius: 100%;
         
             filter: blur(100px);
@@ -197,6 +207,7 @@
             border-radius: 20px;
             position: relative;
             border-width: 2px;
+          
   
             // border-color: rgb(255, 42, 42);
             border-color: rgb(246, 169, 61);
@@ -212,40 +223,46 @@
     
         }
       }
-      .cards {
-        display: flex;
-        position: absolute;
-        top: -2rem;
-        right: 40%;
-        z-index: 999;
-        transform: scale(1.5);
-        .card1 {
-          top: 0;
-          position: absolute;
-          transform: rotate(-10deg);
-          z-index: 3;
-          font-size: 0.6rem;
-          .card-image {
-            img {
-              height: 10rem;
-              width: 12rem;
-            }
-          }
-        }
-        .card2 {
-          top: 0;
-          z-index: 2;
-          position: absolute;
-          left: 10rem;
-          transform: rotate(5deg);
-          font-size: 0.7rem;
-          .card-image {
-            img {
-              height: 10rem;
-            }
-          }
-        }
-      }
+
+
+
+
+
+      
+      // .cards {
+      //   display: flex;
+      //   position: absolute;
+      //   top: -2rem;
+      //   right: 40%;
+      //   z-index: 999;
+      //   transform: scale(1.5);
+      //   .card1 {
+      //     top: 0;
+      //     position: absolute;
+      //     transform: rotate(-10deg);
+      //     z-index: 3;
+      //     font-size: 0.6rem;
+      //     .card-image {
+      //       img {
+      //         height: 10rem;
+      //         width: 12rem;
+      //       }
+      //     }
+      //   }
+      //   .card2 {
+      //     top: 0;
+      //     z-index: 2;
+      //     position: absolute;
+      //     left: 10rem;
+      //     transform: rotate(5deg);
+      //     font-size: 0.7rem;
+      //     .card-image {
+      //       img {
+      //         height: 10rem;
+      //       }
+      //     }
+      //   }
+      // }
 
 
 

@@ -39,6 +39,7 @@
       .title {
         color: #c71919;
         padding: .5rem;
+        text-align: center;
 
    
       }
@@ -46,6 +47,8 @@
       .subtitle {
         color:rgb(232, 149, 32);
         padding: .5rem;
+        text-align: center;
+
      }
       .description {
         color: #ffffff;
@@ -94,7 +97,7 @@
       top: -10rem;
       display: flex;
       flex-direction: column;
-      gap: 12rem;
+      // gap: 12rem;
       padding-bottom: 3rem;
 
       // grid-template-columns: 1fr 1fr;
@@ -121,17 +124,17 @@
    
         }
   
-        .imageB {
-          margin: auto;
-          img {
-            border-radius: 350px;
-            transform: scale(1);
-            position: relative;
-            left: -4.5rem;
+        // .imageB {
+        //   margin: auto;
+        //   img {
+        //     border-radius: 350px;
+        //     transform: scale(1);
+        //     position: relative;
+        //     left: -4.5rem;
           
-          }
+        //   }
    
-        }
+        // }
         .title {
           color: #c71919;
   
@@ -164,57 +167,19 @@
 @media screen and (max-width: 430px) {
 
   .like {
-    // margin: 5rem 0;
-    
+   padding-top: 12rem;
+      
     .container {
-      transform: scale(1);
-      
-      position: relative;
-      // width: screen;
-      // height: screen;
-      // margin: auto;
-      left: 0rem;
-      top: -10rem;
-      display: flex;
-      flex-direction: column;
-      gap: 12rem;
-      padding-bottom: 3rem;
-      
-
-      // grid-template-columns: 1fr 1fr;
-      // gap: 4rem;
+     gap: 13rem;
       .content {
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        gap: .5rem;
-        // padding: 3rem;
-        border-radius: 2rem;
-        justify-content: center;
-            align-items: center;
-            align-content: center;
+        
 
-
-
-        padding-bottom: 3rem;
-        // margin: auto;
-       
-  
         .imageA {
-          
-          // margin: auto;
+       
           img {
-            border-radius: 350px;
-            transform: scale(.8);
-            width: 125%;
-            margin-left: 5.9rem;
-            margin-right: 4rem;
-            // justify-content: center;
-         
-            // align-content: center;
-            
-            // position: relative;
-            
+            position: relative;
+            left: 0px;
+            transform: scale(.9);
           }
    
         }

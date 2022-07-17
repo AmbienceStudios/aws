@@ -11,23 +11,23 @@ export default function Home() {
           Founded by Jet Urban Clothing.</strong></p>
           <br/>
           <p className="description">
-          We are a commnuity of warriors who have come from all walks of life who share the same vision to make the world a better place
+          We are a community of warriors who have come from all walks of life who share the same vision to make the world a better place
           </p>
-
+ 
         <div className="notice-container">
           <div className="notice">
-          Jet urban clothing admin locked the opensea account @urbanwarriors wallet address
+          Jet urban clothing admin locked the open sea account @urbanwarriors wallet address
           </div>
-
+ 
            
           <div className="notice2">
-          0x13E051C962Ed2870F9121bF5F827F653355CA10D as a security measure 
+          0x13E051C962Ed2870F9121bF5F827F653355CA10D as a security measure
           </div>
          
           <div className="notice">
           If you own any from this collection you will not be able to buy,sell or transfer!!!!
           </div>
-
+ 
           <div className="notice">
           All previous holders of the golden boy collection will be air dropped the nfts the previous when minting from (official name & link to this site) goes live
           </div>
@@ -39,11 +39,11 @@ export default function Home() {
         <div className="image-container">
           <div className="image">
             <img src={home} alt="Golden Boy" />
-          </div>
+          </div> 
           <div className="ellipse-container">
             <div className="ellipse pink"></div>
             <div className="ellipse orange"></div>
-          </div>
+          </div> 
         </div>
       </div>
     </div>

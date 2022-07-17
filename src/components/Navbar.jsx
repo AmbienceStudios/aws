@@ -31,12 +31,12 @@ export default function Navbar({ changeTheme, currentTheme }) {
       </div>
       <div className={`links-container ${navState ? "nav-visible" : ""}`}>
         <ul className="links">
-          <li>
+          {/* <li>
             <a href="#feature">Home</a>
           </li>
           <li>
             <a href="#about">About</a>
-          </li>
+          </li> */}
           {/* <li>
             <a href="#launch">Launch</a>
           </li> */}

@@ -14,7 +14,7 @@ export default function Card({ image, series, title, price, tag, time }) {
         <div className="card-details">
           <h4 className="card-title">{title}</h4>
           <div className="card-price">
-            <img src={superEth} alt="super eth" />
+            {/* <img src={superEth} alt="super eth" /> */}
             <h4>{price}</h4>
           </div>
         </div>
