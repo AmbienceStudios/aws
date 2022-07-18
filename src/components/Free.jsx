@@ -1,8 +1,13 @@
 import React from "react";
-
+import Card from "./Card";
+import super1 from "../assets/boy2.png";
+import release2 from "../assets/boy3.png";
+import Slider from '../components/Slider.jsx'
 
 export default function Free() {
-  return (
+ 
+    return (
+
     <div className="free">
       <div className="container">
         <div className="background">
@@ -19,7 +24,10 @@ export default function Free() {
             These are the ultilities of holding a Golden Boy
           </p>
 
-          <div className="slider"> <p> NFT Ultilites # 1 </p> 
+          <div className="slider"> 
+          
+          <Slider/>
+           
           </div>
 
         </div>
@@ -31,6 +39,9 @@ export default function Free() {
       </div>
 
     </div>
+
+        
+
   );
 }
 

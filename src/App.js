@@ -52,7 +52,7 @@ function App() {
   return (
     <div data-theme={theme} className="app-container">
       <ScrollToTop />
-      {/* <Navbar changeTheme={changeTheme} currentTheme={theme} /> */}
+      <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
       <Like />
       <Free />
