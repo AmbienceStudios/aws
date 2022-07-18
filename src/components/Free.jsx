@@ -1,8 +1,9 @@
 import React from "react";
-import Card from "./Card";
-import super1 from "../assets/boy2.png";
-import release2 from "../assets/boy3.png";
-import Slider from '../components/Slider.jsx'
+import '../sass/sections/_free.scss';
+
+
+
+// import Slider from './Slider.jsx'
 
 export default function Free() {
  
@@ -26,7 +27,7 @@ export default function Free() {
 
           <div className="slider"> 
           
-          <Slider/>
+          {/* <Slider/> */}
            
           </div>
 
@@ -46,27 +47,3 @@ export default function Free() {
 }
 
 
-
-
-      {/* <div className="cards">
-        <div className="card1">
-          <Card
-            image={super1}
-            series="Golden Boy"
-            title="FIERCE HEART"
-            price={2.99}
-            tag={1}
-            time={30}
-          />
-        </div>
-        <div className="card2">
-          <Card
-            image={release2}
-            series="Golden Boy"
-            title="Golden Boy"
-            price={3.95}
-            tag="1094"
-            time={30}
-          />
-        </div>
-      </div> */}

@@ -1,5 +1,7 @@
 import React from "react";
 import signup from "../assets/boy.png";
+import '../sass/sections/_signup.scss';
+
 export default function Signup() {
   return (
     <div className="signup">

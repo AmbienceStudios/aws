@@ -1,8 +1,6 @@
 import React from "react";
-import { BsArrowRight } from "react-icons/bs";
-import release1 from "../assets/boy.png";
-import release2 from "../assets/boy.png";
-import Card from "./Card";
+import '../sass/sections/_release.scss';
+
 
 export default function Release() {
   return (

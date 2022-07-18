@@ -1,9 +1,12 @@
 import React, {useState} from 'react'
 import './Slider.css'
-import BtnSlider from './BtnSlider'
-import dataSlider from './dataSlider'
+import BtnSlider from './BtnSlider.jsx'
+import dataSlider from './dataSlider.jsx'
 
-export default function Slider() {
+
+
+
+function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
 
@@ -29,17 +32,13 @@ export default function Slider() {
         setSlideIndex(index)
     }
 
-    return (
-        <div className="container-slider">
-            {dataSlider.map((obj, index) => {
+  return (
+
+    <div className="container-slider">
+            {dataSlider.map((obj, index)  => {
                 return (
-                    <div
-                    key={obj.id}
-                    className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
-                    >
-                        <img 
-                        src={process.env.PUBLIC_URL + `/imgs/img${index + 1}.jpg`} 
-                        />
+                    <div key={obj.id} className={slideIndex === index + 1 ? "slide active-anim" : "slide"} >
+                    <img src={process.env.PUBLIC_URL + `/imgs/img${index + 1}.jpg`} />
                     </div>
                 )
             })}
@@ -57,3 +56,7 @@ export default function Slider() {
         </div>
     )
 }
+ 
+
+export default Slider
+

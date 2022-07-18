@@ -12,5 +12,7 @@ module.exports = {
   rules: {
     'no-param-reassign': ['off'],
     'import/no-extraneous-dependencies': 'off',
+    'arrow-body-style': ["off"],
+   
   },
 };

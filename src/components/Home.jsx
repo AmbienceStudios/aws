@@ -1,5 +1,9 @@
 import React from "react";
 import home from "../assets/boy.png";
+import '../sass/sections/_home.scss';
+
+
+
 export default function Home() {
   return (
     <div className="home">
@@ -14,7 +18,7 @@ export default function Home() {
           We are a community of warriors who have come from all walks of life who share the same vision to make the world a better place
           </p>
  
-        <div className="notice-container">
+         <div className="notice-container">
           <div className="notice">
           Jet urban clothing admin locked the open sea account @urbanwarriors wallet address
           </div>
@@ -33,7 +37,7 @@ export default function Home() {
           </div>
           </div>
          
-          <button>Learn More</button>
+          {/* <button>Learn More</button> */}
         
         </div>
         <div className="image-container">

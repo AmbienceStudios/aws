@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "./Card";
 import Boxer1 from '../assets/Boxer1.jpg';
 import Boxer2 from "../assets/Boxer2.jpg";
 import Boxer3 from "../assets/Boxer3.jpg";
@@ -12,6 +11,7 @@ import Boxer9 from "../assets/Boxer9.jpg";
 import Boxer10 from "../assets/Boxer10.jpg";
 import Boxer11 from "../assets/Boxer11.jpg";
 import Boxer12 from "../assets/Boxer12.jpg";
+import '../sass/sections/_superRare.scss';
 
 const SuperRare = () => {
   return (

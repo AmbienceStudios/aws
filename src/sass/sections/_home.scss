@@ -7,14 +7,13 @@
     grid-template-columns: 1fr 1fr;
     font-size: 32px;
     .content {
-      margin-top: 3rem;
-      margin-left: 0%;
-      // text-align: center;
+          margin-top: 3rem;
+           // text-align: center;
       display: flex;
       flex-direction: column;
       gap: 2rem;
       align-items: flex-start;
-      width: 155%;
+      width: 100%;
     
       .sub-title {
         color: rgb(219, 27, 27);

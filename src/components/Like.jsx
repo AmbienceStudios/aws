@@ -1,6 +1,10 @@
 import React from "react";
 import image1 from "../assets/boy3.png";
 import image2 from "../assets/boy2.png";
+import '../sass/sections/_like.scss';
+
+
+
 
 export default function Like() {
   return (
