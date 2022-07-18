@@ -2,7 +2,7 @@
   width: 80%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 30px;
   padding: 4rem;
 }
@@ -11,7 +11,7 @@
   width: 100%;
   // cursor: pointer;
   img {
-    border-radius: 150px;
+    border-radius: 20px;
     border: solid;
     border-width: 2px;
     border-color: white;
@@ -20,7 +20,7 @@
 
 .img-gallery img:hover {
   transform: scale(0.98) rotate(-1deg);
-  border-radius: 150px;
+  border-radius: 20px;
   box-shadow: 0 32px 75px rgba(251, 17, 17, 0.2);
 
 }
