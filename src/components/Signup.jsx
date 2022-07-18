@@ -33,10 +33,10 @@ export default function Signup() {
           <div className="image">
             <img src={signup} alt="home image" />
           </div>
-          <div className="ellipse-container">
+          {/* <div className="ellipse-container">
             <div className="ellipse pink"></div>
             <div className="ellipse orange"></div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

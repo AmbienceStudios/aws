@@ -1,262 +1,83 @@
-.home {
-  margin-top: 2rem;
-  margin-bottom: 12rem;
-  padding: 24px;
-  .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 32px;
-    .content {
-          margin-top: 3rem;
-           // text-align: center;
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      align-items: flex-start;
-      width: 100%;
-    
-      .sub-title {
-        color: rgb(219, 27, 27);
-        color: linear-gradient(90deg, rgb(219, 27, 27) 0%, rgba(121,9,9,1) 35%, rgba(36,0,0,1) 100%);
-        text-transform: uppercase;
-        letter-spacing: 0.1rem;
-     
-      }
-      .title {
-        color: var(--accent-color1);
-      
-       
-      }
-      .description {
-        color: var(--accent-color3);
-    
-      }
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  
+  .logo {
+    transform: scale(.5);
+  }
 
-
-
-      button {
-        color: var(--accent-color1);
-        background-color: var(--background);
-        font-weight: bold;
-        padding: 1rem 3rem;
-     
-        border-radius: 2rem;
-        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-        border: solid 3px transparent;
-        background-image: linear-gradient(
-            rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0)
-          ),
-          linear-gradient(101deg, rgb(230, 40, 40), rgb(230, 40, 40));
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        box-shadow: 2px 1000px 1px var(--background) inset;
-        transition: 0.5s ease-in-out;
-        cursor: pointer;
-        &:hover {
-          box-shadow: none;
-        }
-      }
-
-
-
-
-
-      .notice {
-        color: rgb(214, 214, 214);
-        font-size: 1rem;
-        line-height: 2rem;
-       
-      }
-
-      .notice2 {
-        color: red;
-        font-size: 1rem;
-      
-      }
-
-
+  .title {
+    position: relative;
+    text-align: center;
+    left: 0%;
+    color: white;
+    font-size: 4rem;
 
   
+  }
+}
+
+@media screen and (max-width: 1450px) {
+
+  section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    
+
+    .logo {
+      transform: scale(.5);
     }
-    .image-container {
 
-      .image {
-
-        
-        img {
-      
-          transform: scale(.7);
-        }
-      }
-      .ellipse-container {
-        .ellipse {
-          z-index: -1;
-          position: absolute;
-          height: 5rem;
-          width: 5rem;
-          filter: blur(100px);
-        }
-        .pink {
-          top: 40%;
-          right: 40%;
-          background-color: rgba(121,9,9,1);
-        }
-        .orange {
-          bottom: 40%;
-          left: 40%;
-          background-color: rgb(230, 40, 40);
-        }
-      }
+  
+    .title {
+      text-align: center;
+      position: relative;
+      left: 0%;
+      color: white;
+      font-size: 4rem;
+  
+    
     }
   }
+
+
 }
 
 
 
-@media screen and (min-width: 280px) and (max-width: 430px) {
-  .home {
-    padding: 1rem;
-    position: relative;
+
+
+
+@media screen and (max-width: 430px) {
+
+  section {
     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
     
-    margin-top: 1rem;
-    .container {
-      width: 100%;
-      grid-template-columns: 0.7fr;
-
-      .content {
-        margin-top: 25rem;
-      
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        align-items: flex-start;
-        .sub-title {
-          margin: auto;
-          color: rgb(219, 27, 27);
-          color: linear-gradient(90deg, rgb(219, 27, 27) 0%, rgba(121,9,9,1) 35%, rgba(36,0,0,1) 100%);
-          text-transform: uppercase;
-          letter-spacing: 0.1rem;
-          font-size: .6rem;
-          position: relative;
-          left: -1.5rem;
-          text-align: center;
-        }
-        .title {
-          color: var(--accent-color1);
-          font-size: 1.5rem;
-          margin: auto;
-          position: relative;
-          left: 2rem;
-       
-        }
-        .description {
-          color: var(--accent-color3);
-          font-size: 1rem;
-          margin: auto;
-          padding-right: 20%;
-          position: relative;
-          text-align: center;
-          left: 1.5rem;
-        }
   
-        .notice {
-          position: relative;
-          color: var(--accent-color3);
-         transform: scale(.9);
-          margin: auto;
-          padding-right: 20%;
-          position: relative;
-          text-align: center;
-          left: 1.5rem;
-          
-          }
-
-          .notice2 {
-            color:rgb(219, 27, 27);
-            position: relative;
-            color: var(--accent-color3);
-           transform: scale(.8);
-            // margin: auto;
-       
-            position: relative;
-            text-align: center;
-            left: -1rem;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            
-          
-          }
-
-
-      }
-
-
-
-      button {
-        color: var(--accent-color1);
-        background-color: var(--background);
-        font-weight: bold;
-        padding: 1rem 3rem;
-        border-radius: 2rem;
-        box-shadow: 0 0 6px 0 rgba(212, 96, 96, 0.5);
-        border: solid 3px transparent;
-        background-image: linear-gradient(
-            rgba(255, 255, 255, 0),
-            rgba(255, 255, 255, 0)
-          ),
-          linear-gradient(90deg, rgb(219, 27, 27) 0%, rgba(121,9,9,1) 35%, rgb(230, 40, 40) 100%);
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        box-shadow: 2px 1000px 1px var(--background) inset;
-        transition: 0.5s ease-in-out;
-        cursor: pointer;
-        &:hover {
-          box-shadow: none;
-        position: relative;
-       
-   
-        width: 100%;
-        
-        }
-      }
-
-
-
-
-      .image-container {
-        position: absolute;
-        left: -3.5rem;
-        top: 5rem;
-        bottom: 55rem;
-        
-        
-
-        top: 30%;
-        .image {
-          img {
-            height:30rem;
-            position: relative;
-            left: 1rem;
-            width: 120%; // Mobile strinks the image so have to
-            bottom: 25rem;
-          }
-        }
-        .ellipse-container {
-          .ellipse {
-            height: 4rem;
-            width: 4rem;
-            filter: blur(100px);
-          }
-          .pink {
-            right: 0%;
-          }
-          .orange {
-            left: 10%;
-          }
-        }
-      }
+    .title {
+      text-align: center;
+      position: relative;
+      left: 0%;
+      color: white;
+      font-size: 4rem;
+  
+    
     }
   }
+
+
 }

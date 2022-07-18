@@ -174,11 +174,11 @@
   }
   .orange {
     background: rgb(36,0,0);
-    background: linear-gradient(90deg, #111 0%, #111 38%, rgba(219, 27, 27, 0.62) 100%);   
+    background: linear-gradient(90deg, #111 0%, #111 38%, rgb(241, 42, 42) 100%);   
   }
   .green {
       background: rgb(36,0,0);
-    background: linear-gradient(90deg, #111 0%, #111 38%, rgba(219, 27, 27, 0.62) 100%); 
+    background: linear-gradient(90deg, #111 0%, #111 38%, rgb(241, 42, 42) 100%); 
    }
 }
 
@@ -187,21 +187,19 @@
 
 @media screen and (max-width: 430px) {
   .releases {
+    
     display: flex;
-    // background: #181818;
-    // background: linear-gradient(90deg, rgba(36,0,0,1) 0%, #181818, 35%, #181818, 100%);    
+  
     position: relative;
-    // margin: auto;
+ 
       left: 0rem;
       top: 0rem;
       flex-direction: column;
       gap: 4rem;
       padding-bottom: 3rem;
-      // border-radius: 38px;
-      // border: solid;
+
       border-width: 0px;
-      // border-color: rgb(255, 42, 42);
-      // border-color: rgb(246, 169, 61);
+    
 
 
 
@@ -217,19 +215,20 @@
         // border-color: rgb(246, 169, 61);
         .title-t {
           color: var(--accent-color1);
-          font-size: 2rem;
+          font-size: 3rem;
           font-weight: bold;
-          margin: auto;
+          
           text-align: center;
+          position: relative;
+          top: -4rem;
 
         }
         .description-t {
           color: rgb(219, 27, 27);
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           font-weight: bold;
-          margin: auto;
-          padding: 1rem;
-          text-align: center;
+         
+                  text-align: center;
           a {
             color: var(--accent-color3);
             font-weight: bold;
@@ -251,11 +250,13 @@
       border-color: rgb(246, 169, 61);
       
       
+      
       .content {
    
         display: flex;
         flex-direction: column;
         gap: 2rem;
+     
         .title {
           font-size: 2rem;
           color: rgb(246, 169, 61);

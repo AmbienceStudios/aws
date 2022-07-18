@@ -15,23 +15,128 @@ import '../sass/sections/_superRare.scss';
 
 const SuperRare = () => {
   return (
+
+<div className="content-art">
+
+    <div className="image">
+    {/* <img src={icon} alt="icon" /> */}
+     </div>
+
+    <h2 className="title-art">Collection Preview</h2>
     
-  <div class="img-gallery">
-    <img src={Boxer1}/>
-    <img src={Boxer2}/>
-    <img src={Boxer3}/>
-    <img src={Boxer4}/>
-    <img src={Boxer5}/>
-    <img src={Boxer6}/>
-    <img src={Boxer7}/>
-    <img src={Boxer8}/>
-    <img src={Boxer9}/>
-    <img src={Boxer10}/>
-    <img src={Boxer11}/>
-    <img src={Boxer12}/>
+
+
+
+  <div className="slider">
+
+      <div className="slide-track">
+
+            <div className="slide">
+                <img src={Boxer1}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer2}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer3}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer4}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer5}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer6}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer7}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer8}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer9}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer10}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer11}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer12}/>
+            </div>
+
+
+        {/* Same Slide doubled  */}
+
+            
+        <div className="slide">
+                <img src={Boxer1}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer2}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer3}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer4}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer5}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer6}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer7}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer8}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer9}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer10}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer11}/>
+            </div>
+
+            <div className="slide">
+                <img src={Boxer12}/>
+            </div>
+
+
+      </div>
+
  </div>
 
-
+ </div>
   )
 }
 

@@ -1,8 +1,6 @@
 import React from "react";
 import '../sass/sections/_free.scss';
 
-
-
 // import Slider from './Slider.jsx'
 
 export default function Free() {
