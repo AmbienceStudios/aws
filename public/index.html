@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="Jet Urban Clothing Presents"
+      content="NFT Project"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
    
@@ -16,7 +16,7 @@
   
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   
-    <title>React App</title>
+    <title>Jet Urban Warriors</title>
 
 
 
@@ -82,17 +82,18 @@
 
 
     // orbitcontrol setup
-    const controls = new OrbitControls(camera, renderer.domElement);
+    // const controls = new OrbitControls(camera, renderer.domElement);
 
  
     // to disable zoom
-      controls.enableZoom = false;
+      // controls.enableZoom = false;
 
     // to disable rotation
-      controls.enableRotate = true;
+      // controls.enableRotate = false;
+
 
     // to disable pan
-      controls.enablePan = false;
+      // controls.enablePan = false;
 
     // ambient light setup
     const amibientLight = new THREE.AmbientLight(0x404040, 2);
@@ -143,7 +144,7 @@
 
     // loding gltf 3d model
     const loader = new GLTFLoader();
-    loader.load('%PUBLIC_URL%/model/boxerWeb.glb', (gltf) => {
+    loader.load("%PUBLIC_URL%/model/boxerWeb.glb", (gltf) => {
         house = gltf.scene;
         house.scale.set(1, 1, 1)
         house.position.set(0, -.4, 0)
@@ -171,7 +172,7 @@ const render = () => {
 
 const animate = () => {
     requestAnimationFrame(animate);
-    // rotateModel();
+    rotateModel();
 
     // group.rotation += 0.005;
 
