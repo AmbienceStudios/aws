@@ -83,6 +83,7 @@
 
     // orbitcontrol setup
     const controls = new OrbitControls(camera, renderer.domElement);
+
  
     // to disable zoom
       controls.enableZoom = false;
@@ -153,23 +154,32 @@
     animate();
 }
 
+var SPEED = 0.01;
+
+function rotateModel() {
+    // house.rotation.x -= SPEED * 2;
+    house.rotation.y -= SPEED;
+    // house.rotation.z -= SPEED * 3;
+}
+
 // redering scene and camera
 const render = () => {
     renderer.render(scene, camera);
 }
 
 // animation recursive function
-let step = 0
+
 const animate = () => {
     requestAnimationFrame(animate);
-    // step += 0.02;
-    // house.position.y =  1*Math.abs(Math.sin(step));
-    // // console.log(2*Math.abs(Math.sin(step)))
-    // house.rotation.y = Math.sin(step)*(Math.abs(Math.cos(step / 3) / 4));
+    rotateModel();
+
+    // group.rotation += 0.005;
 
     render();
     // stats.update();
 }
+
+
 
 console.log(Math.sin(10));
 
