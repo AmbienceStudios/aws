@@ -289,7 +289,7 @@ function LoadAventador(config)
     // Load a glTF resource
     gltfLoader.load(
     // resource URL
-    'data/aventador/boxerWeb.glb',
+    './boxerWeb.glb',
     // called when the resource is loaded
     function ( gltf ) 
     {
