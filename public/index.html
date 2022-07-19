@@ -143,7 +143,7 @@
 
     // loding gltf 3d model
     const loader = new GLTFLoader();
-    loader.load('./model/boxerWeb.glb', (gltf) => {
+    loader.load('%PUBLIC_URL%/model/boxerWeb.glb', (gltf) => {
         house = gltf.scene;
         house.scale.set(1, 1, 1)
         house.position.set(0, -.4, 0)
@@ -171,7 +171,7 @@ const render = () => {
 
 const animate = () => {
     requestAnimationFrame(animate);
-    rotateModel();
+    // rotateModel();
 
     // group.rotation += 0.005;
 
