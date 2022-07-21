@@ -1,6 +1,9 @@
+
 import * as THREE from 'https://cdn.skypack.dev/three@0.129.0/build/three.module.js';
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js';
+
+
 
 
 
@@ -12,18 +15,19 @@ let model_container = document.querySelector('.webgl');
 const canvasSize = document.querySelector('.canvas-element');
 
 
+
 const init = () => {
     // scene setup
     scene = new THREE.Scene();
 
     //camera setup
-    const fov = 40;
+    const fov = 10;
     const aspect = canvasSize.offsetWidth / canvasSize.offsetHeight;
     const near = 0.1;
     const far = 1000;
 
     camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-    camera.position.set(0, 0, 25);
+    camera.position.set(4, 4, 100);
     camera.lookAt(scene.position);
     scene.add(camera);
 
@@ -35,18 +39,19 @@ const init = () => {
     });
     renderer.setSize(canvasSize.offsetWidth, canvasSize.offsetHeight);
     renderer.setPixelRatio((window.devicePixelRatio) ? window.devicePixelRatio : 1);
-    renderer.autoClear = false;
-    renderer.setClearColor(0x000000, 0.0);
+    // renderer.autoClear = false;
+    renderer.setClearColor(0x111111);
+
 
     // orbitcontrol setup
     const controls = new OrbitControls(camera, renderer.domElement);
 
     // ambient light setup
-    const amibientLight = new THREE.AmbientLight(0x404040, 2);
+    const amibientLight = new THREE.AmbientLight(0x404040, 10);
     scene.add(amibientLight);
 
     // direction lights setup
-    const spotLight1 = new THREE.SpotLight(0x1d27f0, 5);
+    const spotLight1 = new THREE.SpotLight(0xffffff, 10);
     spotLight1.position.set(6, 11, 6);
     spotLight1.castShadow = true;
     const spotLightHelper1 = new THREE.SpotLightHelper(spotLight1, 1, 0x00ff00);
@@ -60,7 +65,7 @@ const init = () => {
     scene.add(spotLight2);
 
     // back light setup
-    const spotLight3 = new THREE.SpotLight(0x1d27f0, 2);
+    const spotLight3 = new THREE.SpotLight(0xff0000, 2);
     spotLight3.position.set(-10, 18, -17);
     spotLight3.castShadow = true;
     const spotLightHelper3 = new THREE.SpotLightHelper(spotLight3, 2, 0xff0000);
@@ -69,13 +74,15 @@ const init = () => {
 
     // loding gltf 3d model
     const loader = new GLTFLoader();
-    loader.load('./model/scene.glb', (gltf) => {
-        house = gltf.scene.children[0];
-        house.scale.set(0.4, 0.4, 0.4)
-        house.position.set(0, -1.3, 0)
-        house.rotation.x = Math.PI / -3
+    loader.load('./boxerWeb.glb', (gltf) => {
+        house = gltf.scene;
+        house.scale.set(15, 15,15)
+        house.position.set(0, -5, 5)
+        // house.rotation.x = Math.PI / -3
         scene.add(gltf.scene);
     });
+
+    // console.log(house);
 
     animate();
 }
@@ -86,16 +93,15 @@ const render = () => {
 }
 
 // animation recursive function
-// let step = 0
+let step = 0
 const animate = () => {
     requestAnimationFrame(animate);
-    // step += 0.02;
-    // house.position.y =  2*Math.abs(Math.sin(step));
-    // // console.log(2*Math.abs(Math.sin(step)))
-    // house.rotation.y = Math.sin(step)*(Math.abs(Math.cos(step / 3) / 4));
+    step += 0.02;
+    // house.position.x =  2*Math.abs(Math.sin(step));
+    // console.log(2*Math.abs(Math.sin(step)))
+    house.rotation.y = Math.sin(step)*(Math.abs(Math.cos(step / 3) / 4));
 
     render();
-   
 }
 
 console.log(Math.sin(10));

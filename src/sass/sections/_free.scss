@@ -29,9 +29,9 @@ p {
 
 .notice {
   color: var(--accent-color3);
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
@@ -273,13 +273,13 @@ p {
     
   }
   
-  .notice {
-    color: var(--accent-color3);
-    font-size: 1rem;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
+  // .notice {
+  //   color: var(--accent-color3);
+  //   font-size: 1rem;
+  //   text-align: center;
+  //   font-weight: 700;
+  //   text-transform: uppercase;
+  // }
   
   .notice2 {
     color: red;
