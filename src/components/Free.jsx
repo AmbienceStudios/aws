@@ -12,7 +12,7 @@ export default function Free() {
     
     <div className="notice-container">
           
-    <div className="notice4">    
+    <div className="notice5">    
     as a security measure 
     </div>
           
@@ -40,11 +40,11 @@ export default function Free() {
 
 
 
-    <h1>utilities</h1>
+    <h1 class="notice4">utilities</h1>
       <h3 className="notice5">10% to 15%</h3>
           
 
-          <h3 class="notice"> <br/> on all merchandise EXCEPT for NEW RELEASES 
+          <h3 class="notice6"> <br/> on all merchandise EXCEPT for NEW RELEASES. <br/> 
 New Releases with wearable NFTS. <br/> (discounts depends on traits )</h3>   <br/> <br/>       
 
 

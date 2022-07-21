@@ -9,10 +9,10 @@ export default function Release() {
 
       <div className="phaseCards">
           <div className="r-mapDetails">
-                <div className="h1-road"> ROAD MAP</div>
-                      <div className="desc">
-                            <span className="span-road"> The journey to the Urban Warrior's Stadium <br/> in the Metaverse </span>
-                      </div>
+          <h1 className="notice4"> ROAD MAP</h1>
+                      
+          <p className="notice6"> The journey to the Urban Warrior's Stadium in the Metaverse </p>
+                 
            </div>
 
            <div className="col-container">
@@ -21,7 +21,7 @@ export default function Release() {
                  {/* <div className="col-mid-top"> */}
                   <li className="card-road">
                     <div>
-                      <h1 className="card-title-3">PHASE 1</h1>
+                    <h1 className="notice5">PHASE 1</h1>
                       <div className="card-content">
                       Launch Urban Warriors Discord. <br/>  <br/>
                 Launch Urban Warriors GOLDEN BOY COLLECTION. <br/> 
@@ -36,7 +36,7 @@ export default function Release() {
             {/* <div className="col-mid-center"> */}
                   <li className="card-road">
                     <div>
-                      <h1 className="card-title-3">Pre-PHASE 2  <br/> <span className="notice2"> MILESTONE REQUIREMENTS </span></h1>
+                    <h1 className="notice5">Pre-PHASE 2  <br/> <span className="notice2"> MILESTONE REQUIREMENTS </span></h1>
                       <div className="card-content">
                       75 GIVEAWAYS. <br/>  <br/> 
                 75 WHITELIST SPOTS ARE GONE. <br/>  <br/> 
@@ -53,7 +53,7 @@ export default function Release() {
             {/* <div className="col-mid-right"> */}
                   <li className="card-road">
                     <div>
-                      <h1 className="card-title-3">Phase 2</h1>
+                    <h1 className="notice5">Phase 2</h1>
                       <div className="card-content">
                       <span className="description">
                <div className="description2">
@@ -87,7 +87,7 @@ export default function Release() {
             {/* <div className="col-mid-top"> */}
                   <li className="card-road">
                     <div>
-                      <h1 className="card-title-3">Phase 3</h1>
+                    <h1 className="notice5">Phase 3</h1>
                       <div className="card-content">
                       <div className="description2">
                 <span className="notice2"><strong> Launch <br/> <span className="notice5">AUGMENTED REALITY APP</span> </strong></span> 
@@ -103,7 +103,7 @@ export default function Release() {
             {/* <div className="col-mid-center"> */}
                   <li className="card-road">
                     <div>
-                      <h1 className="card-title-3">Phase 4</h1>
+                    <h1 className="notice5">Phase 4</h1>
                       <div className="card-content">
                     
                       <span className="notice2">Launch <br/> <span className="notice5">Urban Warriors Native Token </span> </span><br/>  <br/>
@@ -124,7 +124,7 @@ export default function Release() {
             {/* <div className="col-mid-right"> */}
                   <li className="card-road">
                     <div>
-                      <h1 className="card-title-3">Phase 5</h1>
+                    <h1 className="notice5">Phase 5</h1>
                       <div className="card-content">
                       <span className="notice2">Launch <br/><span className="notice5"> Digital Real Estate Property</span></span>   <br/><br/>
                 IN GAME COMPATIBLE <br/> <br/>
@@ -142,7 +142,7 @@ export default function Release() {
                {/* <div className="col-mid-right"> */}
                <li className="card-road">
                     <div>
-                      <h1 className="card-title-3">Phase 6</h1>
+                    <h1 className="notice5">Phase 6</h1>
                       <div className="card-content">
                         <span>Launch into P2E GAMING  METAVERSE  🚀 </span>
                       </div>

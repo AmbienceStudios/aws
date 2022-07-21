@@ -9,7 +9,7 @@ export default function Free() {
   
 
   <div id="p-allocations"className="container-all">
-    <h1>allocations</h1>
+    <h1 class="notice4">allocations</h1>
 
 
 
