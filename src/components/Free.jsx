@@ -43,8 +43,8 @@ export default function Free() {
     <h1>utilities</h1>
       <h3 class="notice5">10% to 15%</h3>
           
-          <h3 class="notice"> <br/> on all merchandise EXCEPT for NEW RELEASES 
-New Releases with wearable NFTS. <br/> (discounts depends on traits )</h3>   <br/> <br/>       
+          <h3 class="notice"> <br/> on all merchandise EXCEPT for NEW RELEASES
+ with wearable NFTS. <br/><br/>  (discounts depends on traits )</h3>   <br/> <br/>       
       
     
 
