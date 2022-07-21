@@ -14,7 +14,7 @@ export default function Like() {
  
       <div className="container">
 
-      <div class="logo">
+      <div className="logo">
       <img src={logo}/>
     </div>
 

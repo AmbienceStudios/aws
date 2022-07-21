@@ -13,11 +13,11 @@ export default function Signup() {
           wage your warriors or golden boys & warriors NFTS  in the warriors stadium in the ring 
           
           <div className="notice">
-          Your weight class will depend on your NFTs polygon price. 
+          Your weight className will depend on your NFTs polygon price. 
           </div>
 
           <div className="notice">
-          You will not be able to box anyone outside of your weight class 
+          You will not be able to box anyone outside of your weight className 
           the weight classes includes: 
           </div>
 

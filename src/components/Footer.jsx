@@ -12,14 +12,14 @@ const Footer = () => {
   return (
     
     
-<div class="footer-container">
+<div className="footer-container">
 
-<div class="footer-content">
-        <div class="brand-footer">
+<div className="footer-content">
+        <div className="brand-footer">
           <img src={logo} alt="logo"/>
           </div>
           {/* <p>Raj Template is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p> */}
-          <ul class="socials">
+          <ul className="socials">
               <li><a href="https://discord.gg/nnq359KR" target="_blank"><img src={discord}/></a></li>
               <li><a href="https://twitter.com/urbanwarriornft" target="_blank"><img src={twitter}/></a></li>
               <li><a href="https://www.instagram.com/urbanwarriorsnft" target="_blank"><img src={instagram}/></a></li>

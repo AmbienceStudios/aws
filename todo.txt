@@ -24,7 +24,7 @@
                 
                 <div> 
                 <p>3K FOLLOWERS ON TWITTER.  </p>
-                <a href="https://twitter.com/urbanwarriornft?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @urbanwarriornft</a>
+                <a href="https://twitter.com/urbanwarriornft?ref_src=twsrc%5Etfw" className="twitter-follow-button" data-show-count="false">Follow @urbanwarriornft</a>
                 </div>
                 </div>
           </p>

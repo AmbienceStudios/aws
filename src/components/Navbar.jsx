@@ -10,26 +10,26 @@ import '../sass/components/_navbar.scss'
 export default function Navbar({ changeTheme, currentTheme }) {
   const [navState, setNavState] = useState(false);
   return (
-    <nav class="navbar">
+    <nav className="navbar">
       
-    <div class="logo">
+    <div className="logo">
       <img src={logo}/>
     </div>
    
-    <ul class="nav-links">
+    <ul className="nav-links">
     
       {/* <input type="checkbox" id="checkbox_toggle" />
-      <label for="checkbox_toggle" class="hamburger">&#9776;</label> */}
+      <label for="checkbox_toggle" className="hamburger">&#9776;</label> */}
     
-      <div class="menu">
-        <li><a href="#p-about" class="nav-link">ABOUT</a></li>
-        <li><a href="#p-utilities" class="nav-link">UTILITIES</a></li>
-        <li><a href="#p-allocations" class="nav-link">ALLOCATIONS</a></li>
-        <li><a href="#p-roadmap" class="nav-link">ROAD MAP</a></li>
+      <div className="menu">
+        <li><a href="#p-about" className="nav-link">ABOUT</a></li>
+        <li><a href="#p-utilities" className="nav-link">UTILITIES</a></li>
+        <li><a href="#p-allocations" className="nav-link">ALLOCATIONS</a></li>
+        <li><a href="#p-roadmap" className="nav-link">ROAD MAP</a></li>
        
-        <li class="discord"><a href="https://discord.gg/nnq359KR" target="_blank" >DISCORD</a></li>
+        <li className="discord"><a href="https://discord.gg/nnq359KR" target="_blank" >DISCORD</a></li>
 
-        <button class="btn-wallet">Connect Wallet</button>
+        <button className="btn-wallet">Connect Wallet</button>
 
       </div>
     </ul>
