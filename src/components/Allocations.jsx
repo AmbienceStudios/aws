@@ -15,18 +15,18 @@ export default function Free() {
 
     <li class="card-all">
     
-          <h3 class="notice5">10% to 15%</h3>
+          {/* <h3 class="notice5">10% to 15%</h3>
           <div class="card-content">
             <p> on all merchandise EXCEPT for NEW RELEASES 
 New Releases with wearable NFTS. <br/> (discounts depends on traits )</p>         
-         </div>
+         </div> */}
     
-         <div class="solid"></div>
+         {/* <div class="solid"></div> */}
       
 
           <br/>
         
-          <h3 class="card-title3">Profits from every sale of a URBAN WARRIORS GOLDEN BOY COLLECTION NFT <br/> WILL BE BROKEN INTO THESE CATEGORIES.</h3>
+          <h3 class="card-title">Profits from every sale of a URBAN WARRIORS GOLDEN BOY COLLECTION NFT <br/> WILL BE BROKEN INTO THESE CATEGORIES.</h3>
           <div class="card-content">
               {/* <p class="profit">TProfits from every sale of a URBAN WARRIORS GOLDEN BOY COLLECTION NFT  WILL BE BROKEN INTO THESE CATEGORIES.
 </p>           */}
@@ -73,11 +73,11 @@ New Releases with wearable NFTS. <br/> (discounts depends on traits )</p>
 
         <br/>
         
-        <h3 class="notice5">THE RAREST URBAN WARRIORS  NFTS</h3>
+        {/* <h3 class="notice5">THE RAREST URBAN WARRIORS  NFTS</h3>
         <div class="card-content">
           
             <p>Will come with a digital canvas containing a digital QR CODE that you will be able to interact with in real time.  </p>          
-        </div>
+        </div> */}
 
        
     

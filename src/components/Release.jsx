@@ -9,7 +9,7 @@ export default function Release() {
 
       <div class="phaseCards">
           <div class="r-mapDetails">
-                <h1 class="h1-road"> ROAD MAP</h1>
+                <div class="h1-road"> ROAD MAP</div>
                       <div class="desc">
                             <p class="p-road"> The journey to the Urban Warrior's Stadium <br/> in the Metaverse </p>
                       </div>

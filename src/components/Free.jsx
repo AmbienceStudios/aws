@@ -41,6 +41,12 @@ export default function Free() {
 
 
     <h1>utilities</h1>
+      <h3 class="notice5">10% to 15%</h3>
+          <div class="card-content">
+          <h3 class="notice"> <br/> on all merchandise EXCEPT for NEW RELEASES 
+New Releases with wearable NFTS. <br/> (discounts depends on traits )</h3>   <br/> <br/>       
+         </div>
+    
 
     <ul class="cards">
       <li class="card">
@@ -60,7 +66,7 @@ export default function Free() {
         <div>
           <h3 class="card-title">GOLDEN BOY OG ROLES</h3>
           <div class="card-content">
-            <p>The  holders of  the golden boy collection will get a og role that will allow you to mint the next generation a discounted price & vote on changes & routes to be taken in the community</p>          </div>
+            <div class="p-ut">The  holders of  the golden boy collection will get a og role that will allow you to mint the next generation a discounted price & vote on changes & routes to be taken in the community</div>          </div>
         </div>
         {/* <div class="card-link-wrapper">
           <a href="" class="card-link">Learn More</a>
