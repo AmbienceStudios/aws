@@ -102,9 +102,9 @@
     "browserslist" "^4.17.5"
     "semver" "^6.3.0"
 
-"@babel/helper-create-class-features-plugin@^7.16.10", "@babel/helper-create-class-features-plugin@^7.16.7", "@babel/helper-create-class-features-plugin@^7.17.0":
+"@babel/helper-create-className-features-plugin@^7.16.10", "@babel/helper-create-className-features-plugin@^7.16.7", "@babel/helper-create-className-features-plugin@^7.17.0":
   "integrity" "sha512-JBdSr/LtyYIno/pNnJ75lBcqc3Z1XXujzPanHqjvvrhOA+DTceTFuJi8XjmWTZh4r3fsdfqaCMN0iZemdkxZHQ=="
-  "resolved" "https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.17.1.tgz"
+  "resolved" "https://registry.npmjs.org/@babel/helper-create-className-features-plugin/-/helper-create-className-features-plugin-7.17.1.tgz"
   "version" "7.17.1"
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.16.7"
@@ -323,29 +323,29 @@
     "@babel/helper-remap-async-to-generator" "^7.16.8"
     "@babel/plugin-syntax-async-generators" "^7.8.4"
 
-"@babel/plugin-proposal-class-properties@^7.16.0", "@babel/plugin-proposal-class-properties@^7.16.7":
+"@babel/plugin-proposal-className-properties@^7.16.0", "@babel/plugin-proposal-className-properties@^7.16.7":
   "integrity" "sha512-IobU0Xme31ewjYOShSIqd/ZGM/r/cuOz2z0MDbNrhF5FW+ZVgi0f2lyeoj9KFPDOAqsYxmLWZte1WOwlvY9aww=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.16.7.tgz"
+  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-className-properties/-/plugin-proposal-className-properties-7.16.7.tgz"
   "version" "7.16.7"
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.16.7"
+    "@babel/helper-create-className-features-plugin" "^7.16.7"
     "@babel/helper-plugin-utils" "^7.16.7"
 
-"@babel/plugin-proposal-class-static-block@^7.16.7":
+"@babel/plugin-proposal-className-static-block@^7.16.7":
   "integrity" "sha512-dgqJJrcZoG/4CkMopzhPJjGxsIe9A8RlkQLnL/Vhhx8AA9ZuaRwGSlscSh42hazc7WSrya/IK7mTeoF0DP9tEw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-class-static-block/-/plugin-proposal-class-static-block-7.16.7.tgz"
+  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-className-static-block/-/plugin-proposal-className-static-block-7.16.7.tgz"
   "version" "7.16.7"
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.16.7"
+    "@babel/helper-create-className-features-plugin" "^7.16.7"
     "@babel/helper-plugin-utils" "^7.16.7"
-    "@babel/plugin-syntax-class-static-block" "^7.14.5"
+    "@babel/plugin-syntax-className-static-block" "^7.14.5"
 
 "@babel/plugin-proposal-decorators@^7.16.4":
   "integrity" "sha512-JR8HTf3T1CsdMqfENrZ9pqncwsH4sPcvsyDLpvmv8iIbpDmeyBD7HPfGAIqkQph2j5d3B84hTm+m3qHPAedaPw=="
   "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.17.0.tgz"
   "version" "7.17.0"
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.17.0"
+    "@babel/helper-create-className-features-plugin" "^7.17.0"
     "@babel/helper-plugin-utils" "^7.16.7"
     "@babel/helper-replace-supers" "^7.16.7"
     "@babel/plugin-syntax-decorators" "^7.17.0"
@@ -432,7 +432,7 @@
   "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-private-methods/-/plugin-proposal-private-methods-7.16.11.tgz"
   "version" "7.16.11"
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.16.10"
+    "@babel/helper-create-className-features-plugin" "^7.16.10"
     "@babel/helper-plugin-utils" "^7.16.7"
 
 "@babel/plugin-proposal-private-property-in-object@^7.16.7":
@@ -441,7 +441,7 @@
   "version" "7.16.7"
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.16.7"
-    "@babel/helper-create-class-features-plugin" "^7.16.7"
+    "@babel/helper-create-className-features-plugin" "^7.16.7"
     "@babel/helper-plugin-utils" "^7.16.7"
     "@babel/plugin-syntax-private-property-in-object" "^7.14.5"
 
@@ -467,16 +467,16 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-class-properties@^7.12.13", "@babel/plugin-syntax-class-properties@^7.8.3":
+"@babel/plugin-syntax-className-properties@^7.12.13", "@babel/plugin-syntax-className-properties@^7.8.3":
   "integrity" "sha512-fm4idjKla0YahUNgFNLCB0qySdsoPiZP3iQE3rky0mBUtMZ23yDJ9SJdg6dXTSDnulOVqiF3Hgr9nbXvXTQZYA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.12.13.tgz"
+  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-className-properties/-/plugin-syntax-className-properties-7.12.13.tgz"
   "version" "7.12.13"
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/plugin-syntax-class-static-block@^7.14.5":
+"@babel/plugin-syntax-className-static-block@^7.14.5":
   "integrity" "sha512-b+YyPmr6ldyNnM6sqYeMWE+bgJcJpO6yS4QD7ymxgH34GBPNDM/THBh8iunyvKIZztiwLH4CJZ0RxTk9emgpjw=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-class-static-block/-/plugin-syntax-class-static-block-7.14.5.tgz"
+  "resolved" "https://registry.npmjs.org/@babel/plugin-syntax-className-static-block/-/plugin-syntax-className-static-block-7.14.5.tgz"
   "version" "7.14.5"
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
@@ -893,7 +893,7 @@
   "resolved" "https://registry.npmjs.org/@babel/plugin-transform-typescript/-/plugin-transform-typescript-7.16.8.tgz"
   "version" "7.16.8"
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.16.7"
+    "@babel/helper-create-className-features-plugin" "^7.16.7"
     "@babel/helper-plugin-utils" "^7.16.7"
     "@babel/plugin-syntax-typescript" "^7.16.7"
 
@@ -924,8 +924,8 @@
     "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression" "^7.16.7"
     "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining" "^7.16.7"
     "@babel/plugin-proposal-async-generator-functions" "^7.16.8"
-    "@babel/plugin-proposal-class-properties" "^7.16.7"
-    "@babel/plugin-proposal-class-static-block" "^7.16.7"
+    "@babel/plugin-proposal-className-properties" "^7.16.7"
+    "@babel/plugin-proposal-className-static-block" "^7.16.7"
     "@babel/plugin-proposal-dynamic-import" "^7.16.7"
     "@babel/plugin-proposal-export-namespace-from" "^7.16.7"
     "@babel/plugin-proposal-json-strings" "^7.16.7"
@@ -939,8 +939,8 @@
     "@babel/plugin-proposal-private-property-in-object" "^7.16.7"
     "@babel/plugin-proposal-unicode-property-regex" "^7.16.7"
     "@babel/plugin-syntax-async-generators" "^7.8.4"
-    "@babel/plugin-syntax-class-properties" "^7.12.13"
-    "@babel/plugin-syntax-class-static-block" "^7.14.5"
+    "@babel/plugin-syntax-className-properties" "^7.12.13"
+    "@babel/plugin-syntax-className-static-block" "^7.14.5"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@babel/plugin-syntax-export-namespace-from" "^7.8.3"
     "@babel/plugin-syntax-json-strings" "^7.8.3"
@@ -1096,9 +1096,9 @@
   dependencies:
     "postcss-value-parser" "^4.2.0"
 
-"@csstools/postcss-is-pseudo-class@^2.0.0":
+"@csstools/postcss-is-pseudo-className@^2.0.0":
   "integrity" "sha512-WnfZlyuh/CW4oS530HBbrKq0G8BKl/bsNr5NMFoubBFzJfvFRGJhplCgIJYWUidLuL3WJ/zhMtDIyNFTqhx63Q=="
-  "resolved" "https://registry.npmjs.org/@csstools/postcss-is-pseudo-class/-/postcss-is-pseudo-class-2.0.0.tgz"
+  "resolved" "https://registry.npmjs.org/@csstools/postcss-is-pseudo-className/-/postcss-is-pseudo-className-2.0.0.tgz"
   "version" "2.0.0"
   dependencies:
     "postcss-selector-parser" "^6.0.9"
@@ -2619,7 +2619,7 @@
   dependencies:
     "@babel/plugin-syntax-async-generators" "^7.8.4"
     "@babel/plugin-syntax-bigint" "^7.8.3"
-    "@babel/plugin-syntax-class-properties" "^7.8.3"
+    "@babel/plugin-syntax-className-properties" "^7.8.3"
     "@babel/plugin-syntax-import-meta" "^7.8.3"
     "@babel/plugin-syntax-json-strings" "^7.8.3"
     "@babel/plugin-syntax-logical-assignment-operators" "^7.8.3"
@@ -2644,7 +2644,7 @@
   "version" "10.0.1"
   dependencies:
     "@babel/core" "^7.16.0"
-    "@babel/plugin-proposal-class-properties" "^7.16.0"
+    "@babel/plugin-proposal-className-properties" "^7.16.0"
     "@babel/plugin-proposal-decorators" "^7.16.4"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.16.0"
     "@babel/plugin-proposal-numeric-separator" "^7.16.0"
@@ -6810,9 +6810,9 @@
   dependencies:
     "postcss-selector-parser" "^6.0.4"
 
-"postcss-dir-pseudo-class@^6.0.3":
+"postcss-dir-pseudo-className@^6.0.3":
   "integrity" "sha512-qiPm+CNAlgXiMf0J5IbBBEXA9l/Q5HGsNGkL3znIwT2ZFRLGY9U2fTUpa4lqCUXQOxaLimpacHeQC80BD2qbDw=="
-  "resolved" "https://registry.npmjs.org/postcss-dir-pseudo-class/-/postcss-dir-pseudo-class-6.0.3.tgz"
+  "resolved" "https://registry.npmjs.org/postcss-dir-pseudo-className/-/postcss-dir-pseudo-className-6.0.3.tgz"
   "version" "6.0.3"
   dependencies:
     "postcss-selector-parser" "^6.0.8"
@@ -7134,7 +7134,7 @@
   dependencies:
     "@csstools/postcss-font-format-keywords" "^1.0.0"
     "@csstools/postcss-hwb-function" "^1.0.0"
-    "@csstools/postcss-is-pseudo-class" "^2.0.0"
+    "@csstools/postcss-is-pseudo-className" "^2.0.0"
     "@csstools/postcss-normalize-display-values" "^1.0.0"
     "autoprefixer" "^10.4.2"
     "browserslist" "^4.19.1"
@@ -7150,7 +7150,7 @@
     "postcss-custom-media" "^8.0.0"
     "postcss-custom-properties" "^12.1.4"
     "postcss-custom-selectors" "^6.0.0"
-    "postcss-dir-pseudo-class" "^6.0.3"
+    "postcss-dir-pseudo-className" "^6.0.3"
     "postcss-double-position-gradients" "^3.0.4"
     "postcss-env-function" "^4.0.4"
     "postcss-focus-visible" "^6.0.3"
@@ -7167,13 +7167,13 @@
     "postcss-overflow-shorthand" "^3.0.2"
     "postcss-page-break" "^3.0.4"
     "postcss-place" "^7.0.3"
-    "postcss-pseudo-class-any-link" "^7.1.0"
+    "postcss-pseudo-className-any-link" "^7.1.0"
     "postcss-replace-overflow-wrap" "^4.0.0"
     "postcss-selector-not" "^5.0.0"
 
-"postcss-pseudo-class-any-link@^7.1.0":
+"postcss-pseudo-className-any-link@^7.1.0":
   "integrity" "sha512-l7sAkLmm3bYq8wt8/0r/dn6o9mVCPq7MOiNrb/Xi2zBlw/+w1V2jKFo/3IijKHfJ92SwDqkVLPwQfGO3xxUdAw=="
-  "resolved" "https://registry.npmjs.org/postcss-pseudo-class-any-link/-/postcss-pseudo-class-any-link-7.1.0.tgz"
+  "resolved" "https://registry.npmjs.org/postcss-pseudo-className-any-link/-/postcss-pseudo-className-any-link-7.1.0.tgz"
   "version" "7.1.0"
   dependencies:
     "postcss-selector-parser" "^6.0.9"
