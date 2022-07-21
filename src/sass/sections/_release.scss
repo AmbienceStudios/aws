@@ -362,11 +362,11 @@
       }
     }
     .orange {
-      background: rgb(36,0,0);
+      background: red;
       background: linear-gradient(0deg, #111 0%, #111 38%, red);   
     }
     .green {
-     background: rgb(219, 27, 27);
+     background: red;
       background: linear-gradient(0deg, #111 0%, #111 38%, red);   
     }
   }
@@ -431,7 +431,7 @@
   
         .description2 {
           font-size: 1.3rem;
-          color: rgb(219, 27, 27);
+          color: red;
           padding: 1rem;
           a {
             color: rgb(255, 255, 255);
@@ -513,12 +513,12 @@
       }
     }
     .orange {
-      background: rgb(36,0,0);
-      background: linear-gradient(0deg, #111 0%, #111 38%, rgb(84, 14, 14) 100%);   
+      background: red;
+      background: linear-gradient(90deg, #111 0%, #111 38%, red);   
     }
     .green {
-     background: rgb(219, 27, 27);
-      background: linear-gradient(180deg, rgb(84, 14, 14) 0%, #111  65%, #111  100%);   
+     background: red;
+      background: linear-gradient(-90deg, red 0%, #111  65%, #111  100%);   
     }
   }
 

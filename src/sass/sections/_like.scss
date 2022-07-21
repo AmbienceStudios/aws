@@ -1,5 +1,6 @@
 .like {
   margin:  0;
+
   .container {
     flex: 2;
     display: flex;
@@ -7,6 +8,12 @@
     
 
     gap: 4rem;
+
+
+    .logo {
+      display: none;
+    }
+
     .content {
       background: rgb(36,0,0);
       background: linear-gradient(0deg, #111 0%, #111 38%, red);   
@@ -85,6 +92,9 @@
 
 
 @media screen and (min-width: 280px) and (max-width: 430px) {
+
+
+
 
   .like {
     // margin: 5rem 0;
@@ -172,6 +182,13 @@
       
     .container {
      gap: 13rem;
+
+      .logo {
+        transform: scale(.8);
+        position: relative;
+        left: 0rem;
+      }
+
       .content {
         
 

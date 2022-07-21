@@ -1,125 +1,17 @@
-// Welcome section //
+• 
+-10% to 15% on all merchandise EXCEPT for NEW RELEASES 
+New Releases with wearable NFTS.(discounts depends on traits )
 
-- Add 3D Boxer to replace the image Boxer
-    - Right Side (Image/3D)
-        - This will be rotating by itself in 3D space 
-        - The user will be able to touch/click and drag the 3D boxer to control the rotation
-        - Once user stops intertacting with 
-    - Left Side (Text)
-        - Placement of text needs to be aligned on all devices 
-        - Button needs to be aligned on all devices 
+Profits from every sale of a URBAN WARRIORS GOLDEN BOY COLLECTION NFT  WILL BE BROKEN INTO THESE CATEGORIES.
 
+25% will go toward our tribes cause regarding kids in foster care,group homes or non profits for mental health awareness 
 
-// Golden Boy Feature Section //
-
-- Need to polish the containers and add styles to make the cards stand out. 
-    - Image aligned on all devices
-    - Find better font to use for headers, sub-headers and descriptions
-    - Use Brand Colors 
-
-// Warrior Story //
-
-- Need to have a headline or visual repsent the story 
-    - Will have a Read More button to take users to the "About" page to read the back story of the project.
-    - Keep it short and simple but engaging enough for users to want to learn more
-
-// Utilites // - Added 
-
-- Need to add a section to display the Utilites 
-    - this will be a 3-6 items with icons/images and a title/descriptions
-    - Need the text for the Utilites
+45% will go towards upgrading the ecosystem
 
 
-// Collection //
+20% will go towards in real life events for tribe members 
 
-- Needs updated artwork for the collection part
-    - Need to remove OpenSea References
-    - Need to display the artwork in full so it doesn't cut off 
-    - aligned for all devices
+10% will go to the creator 
 
-// Road Map //
-
-- Background will be updated to match branding of the website
-    - Need to find offical font for header and descriptions 
-    - Need to display different images on each phase, some being 3D and others being 2D images. 
-
-
-// Battle Zone //
-
-- This section will be highlighted in the upcoming update when development begins.
-    - Will have a Header and descriptions that states what's upcoming
-    - There will be a Button to allow users to signup for updates.
-    - There will be 3D interactable objects like Boxer, Gloves etc..
-
-
-
-
-// Footer //
-- Need to organize and update the links to what will be on the page
-    - Need to establish what pages and resources will be on the website
-    - Need to connect social media links to the buttons
-    - 
-
-
-
-
-
-
-
-
-
-    import React from "react";
-import home from "../assets/boy.png";
-import '../sass/sections/_home.scss';
-
-
-
-export default function Home() {
-  return (
-    <div className="home">
-      <div className="container">
-        <div className="content">
-          <p className="sub-title">A Decentralized Project</p>
-          <h1 className="title">The Golden Boy Collection</h1>
-          <p className="description"><strong>
-          Founded by Jet Urban Clothing.</strong></p>
-          <br/>
-          <p className="description">
-          We are a community of warriors who have come from all walks of life who share the same vision to make the world a better place
-          </p>
- 
-         <div className="notice-container">
-          <div className="notice">
-          Jet urban clothing admin locked the open sea account @urbanwarriors wallet address
-          </div>
- 
-           
-          <div className="notice2">
-          0x13E051C962Ed2870F9121bF5F827F653355CA10D as a security measure
-          </div>
-         
-          <div className="notice">
-          If you own any from this collection you will not be able to buy,sell or transfer!!!!
-          </div>
- 
-          <div className="notice">
-          All previous holders of the golden boy collection will be air dropped the nfts the previous when minting from (official name & link to this site) goes live
-          </div>
-          </div>
-         
-          {/* <button>Learn More</button> */}
-        
-        </div>
-        <div className="image-container">
-          <div className="image">
-            <img src={home} alt="Golden Boy" />
-          </div> 
-          <div className="ellipse-container">
-            <div className="ellipse pink"></div>
-            <div className="ellipse orange"></div>
-          </div> 
-        </div>
-      </div>
-    </div>
-  );
-}
+THE RAREST URBAN WARRIORS  NFTS
+Will come with a digital canvas containing a digital QR CODE that you will be able to interact with in real time. 

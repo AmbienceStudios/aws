@@ -22,7 +22,7 @@ const SuperRare = () => {
     {/* <img src={icon} alt="icon" /> */}
      </div>
 
-    <h2 className="title-art">Collection Preview</h2>
+    {/* <h2 className="title-art">Collection Preview</h2> */}
     
 
 

@@ -2,14 +2,23 @@ import React from "react";
 import image1 from "../assets/boy3.png";
 import image2 from "../assets/boy2.png";
 import '../sass/sections/_like.scss';
+import logo from '../assets/logo2.png';
 
 
 
 
 export default function Like() {
   return (
-    <div className="like">
+    <div id="p-about"className="like">
+    
+ 
       <div className="container">
+
+      <div class="logo">
+      <img src={logo}/>
+    </div>
+
+
         <div className="content">
           <div className="imageA">
             <img src={image1} alt="goldenBoy" />

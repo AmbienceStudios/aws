@@ -1,65 +1,43 @@
-import React from "react";
+import React from 'react'
 import logo from "../assets/logo2.png";
-import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
-import { FaTiktok } from "react-icons/fa";
-export default function Footer() {
-  const links = [
-    {
-      title: "About",
-      data: ["About", "Terms", "Legal"],
-    },
-    {
-      title: "NFT",
-      data: ["OpenSea", "Maker", "Learn"],
-    },
-    {
-      title: "Contact",
-      data: ["Press", "Support"],
-    },
-    {
-      title: "Social",
-      data: ["Twiiter", "Instagram"],
-    },
-  ];
-  const socialLink = [
-    <BsFacebook />,
-    <BsTwitter />,
-    <BsInstagram />,
-    <FaTiktok />,
-  ];
+import '../sass/components/_footer.scss'
+import twitter from "../assets/i-twitter.png"
+import instagram from "../assets/i-insta.png"
+import tiktok from "../assets/i-tiktok.png"
+import snapchat from "../assets/i-snap.png"
+import direct from "../assets/i-mail.png"
+import discord from "../assets/i-discord.png"
+
+const Footer = () => {
   return (
-    <footer>
-      <div className="upper">
-        <div className="brand-container">
-          <div className="brand">
-            <img src={logo} alt="logo" />
+    
+    
+<div class="footer-container">
+
+<div class="footer-content">
+        <div class="brand-footer">
+          <img src={logo} alt="logo"/>
           </div>
-          <p>Exclusive NFT Collection</p>
-          <ul>
-            {socialLink.map((link, index) => (
-              <li key={index}>{link}</li>
-            ))}
+          {/* <p>Raj Template is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p> */}
+          <ul class="socials">
+              <li><a href="https://discord.gg/nnq359KR" target="_blank"><img src={discord}/></a></li>
+              <li><a href="https://twitter.com/urbanwarriornft" target="_blank"><img src={twitter}/></a></li>
+              <li><a href="https://www.instagram.com/urbanwarriorsnft" target="_blank"><img src={instagram}/></a></li>
+              <li><a href="https://www.tiktok.com/@urbanwarriorsnft" target="_blank"><img src={tiktok}/></a></li>
+              <li><a href="https://t.snapchat.com/5Ps2F4We" target="_blank"><img src={snapchat}/></a></li>
+              {/* <li><a href="#" target="_blank"><img src={direct}/></a></li> */}
+            
+
+            
           </ul>
-        </div>
-        <div className="links">
-          {links.map(({ title, data }, index) => {
-            return (
-              <div className="link" key={index}>
-                <h4>{title}</h4>
-                <ul>
-                  {data.map((link, index2) => (
-                    <li key={index2}>{link}</li>
-                  ))}
-                </ul>
-              </div>
-            );
-          })}
-        </div>
       </div>
-      <div className="lower">
-        <span>&copy; Copyright 2022 NFT</span>
-        <span>Launching August 2022</span>
-      </div>
-    </footer>
-  );
+
+</div>
+
+
+
+
+  )
 }
+
+export default Footer

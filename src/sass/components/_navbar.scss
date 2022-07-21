@@ -1,142 +1,123 @@
-nav {
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body {
+  font-family: cursive;
+ }
+ a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+
+ /* NAVBAR STYLING STARTS */
+.navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  .brand-container {
-    .brand {
-      img {
-        position: relative;
-        left: 0%;
-        height: 100%;
-        width: 40%;
-        margin: auto;
-      }
-    }
-    .toggle-container {
-      display: none;
-      .toggle {
-      }
-      .mode {
-      }
-    }
+  justify-content: space-between;
+
+  padding-bottom: 1rem;
+  background-color: #111;
+  color: #fff;
+ }
+ .nav-links a {
+  color: #fff;
+ }
+ /* LOGO */
+ .logo {
+ transform: scale(.3);
+ position: relative;
+ right: 15rem;
+ 
+ }
+ /* NAVBAR MENU */
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+ }
+ .menu li:hover {
+  background-color: #ff0000;
+  border-radius: 5px;
+  transition: 0.3s ease;
+ }
+ .menu li {
+  padding: 5px 14px;
+
+  .discord {
+    background-color: #111;
   }
-  .links-container {
-    .links {
-      list-style-type: none;
-      display: flex;
-      gap: 4rem;
-      li {
-        .dark {
-          color: black;
-        }
-        .light {
-          color: yellow;
-        }
-        a {
-          color: var(--accent-color3);
-          text-decoration: none;
-        }
-        &:last-of-type {
-          a {
-            color: var(--pink);
-          }
-        }
-      }
-    }
-  }
+ }
+
+
+ /* DROPDOWN MENU */
+ .services {
+  position: relative; 
+ }
+ .dropdown {
+  background-color: rgb(255, 0, 0);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+ }
+ .dropdown li + li {
+  margin-top: 10px;
+ }
+ .dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+ }
+ .dropdown li:hover {
+  background-color: #ff0000;
+ }
+ .services:hover .dropdown {
+  display: block;
+ }
+
+ 
+@media screen and (max-width: 430px) {
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body {
+  font-family: cursive;
+ }
+ a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+
+ /* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 1rem;
+  background-color: #111;
+  color: #fff;
+ }
+ .nav-links a {
+  color: #fff;
+ }
+ /* LOGO */
+ .logo {
+ transform: scale(.3);
+
+ 
 }
 
-[data-theme="light"] {
-  nav {
-    .brand-container {
-      .brand {
-        img {
-          filter: brightness(0);
-        }
-      }
-    }
-  }
 }
-
-@media screen and (min-width: 280px) and (max-width: 430px) {
-  nav {
-    position: relative;
-    padding: 1rem 2rem;
-    .brand-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      .brand {
-        img {
-          height: 1.5rem;
-        }
-      }
-      .toggle-container {
-        display: block;
-        color: var(--accent-color1);
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 1rem;
-        z-index: 40;
-        .toggle {
-          z-index: 40;
-          display: block;
-        }
-      }
-    }
-
-    .brand-container {
-      .brand {
-        img {
-          position: relative;
-          left: 7.7rem;
-          top: 2rem;
-          transform: scale(3);
-          height: 100%;
-          width: 20%;
-      
-        }
-      }
-      .toggle-container {
-        display: none;
-        .toggle {
-        }
-        .mode {
-        }
-      }
-    }
-
-    .links-container {
-      z-index: 30;
-      background-image: linear-gradient(101deg, var(--pink), var(--orange));
-      height: 100vh;
-      position: absolute;
-      top: 0;
-      right: 0;
-      opacity: 0;
-      width: 0;
-      visibility: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transition: 0.5s ease-in-out;
-      .links {
-        flex-direction: column;
-        li {
-          a {
-            color: var(--background);
-          }
-          &:last-of-type {
-            display: none;
-          }
-        }
-      }
-    }
-    .nav-visible {
-      width: 60vw;
-      visibility: visible;
-      opacity: 1;
-    }
-  }
-}
+  
