@@ -2,7 +2,7 @@ import React from "react";
 
 import Footer from "./components/Footer.jsx";
 import Free from "./components/Free.jsx";
-import Home from "./components/Home.jsx";
+// import Home from "./components/Home.jsx";
 import Like from "./components/Like.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Release from "./components/Release.jsx";
@@ -18,7 +18,7 @@ function App() { return (
     <div className="app-container">
       {/* <ScrollToTop /> */}
       <Navbar  />
-      <Home />
+      {/* <Home /> */}
       <Like/>
       <Free />
       {/* <Clients /> */}

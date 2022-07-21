@@ -83,7 +83,7 @@
 
 .card-road {
 
-
+  
   display: flex;
   flex-direction: row;
   padding: 20px;
@@ -212,12 +212,60 @@
     // max-width: 1100px;
     padding: 0 15px;
     margin: 0;
+    padding-top: 20rem;
 
     
     
   }
 
+  .phaseCards {
+ 
+    display: grid;
+  
+    // grid-auto-columns: 100%;
+    grid-column-gap: 10px;
+    grid-auto-flow: row;
+    flex-wrap: wrap;
+    padding: 0px 5px;
+    overflow-x: scroll;
+  }
+  
+  
+}
+
+.col-container {
+  padding: 0px;
+  
+}
+
+.r-mapDetails {
+
 
 }
+
+.h1-road {
+  text-transform: uppercase;
+
+  font-weight: 900;
+  padding: 2rem;
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(255, 254, 254);
+
+}
+
+.p-road {
+  
+    color: var(--accent-color3);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 4rem;
+  
+}
+
+
 
 

@@ -150,5 +150,41 @@
  
 }
 
+.btn-wallet {
+  color: white;
+  position: absolute;
+  display: none;
+  top: 10%;
+
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 20px;
+  margin-right: 2rem;
+  background-color: #111;
+  border: solid;
+  border-width: 2.01px;
+  border-color: rgb(246, 169, 61);
+  margin: auto;
+  font-size: 1rem;
+}
+
+.btn-wallet:hover {
+  color: white;
+  background-color: rgb(255, 0, 0);
+  border: solid;
+  border-width: 2.01px;
+  border-color: rgb(20, 20, 20);
+  margin: auto;
+  font-size: 1rem;
+}
+
+
+
+
+
+
 }
   
