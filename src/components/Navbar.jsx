@@ -28,6 +28,9 @@ export default function Navbar({ changeTheme, currentTheme }) {
         <li><a href="#p-roadmap" class="nav-link">ROAD MAP</a></li>
        
         <li class="discord"><a href="https://discord.gg/nnq359KR" target="_blank" >DISCORD</a></li>
+
+        <button class="btn-wallet">Connect Wallet</button>
+
       </div>
     </ul>
   </nav>

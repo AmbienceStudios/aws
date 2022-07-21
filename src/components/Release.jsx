@@ -1,66 +1,64 @@
 import React from "react";
 import '../sass/sections/_release.scss';
+import twitterFollowButton from 'https://platform.twitter.com/widgets.js';
 
 
 export default function Release() {
   return (
-    <div id="p-roadmap" className="releases">
-       <div className="title-container">
-        <h2 className="title-t">ROAD MAP</h2>
-        <p className="description-t">
-        The journey to Urban Warriors stadium in the metaverse
-        </p>
-      </div>
-      <div className="release orange">
-        <div className="content">
-          <h2 className="title">PHASE 1</h2>
-          <p className="description">
-                Launch Urban Warriors Discord. <br/>
+   <div id="p-roadmap" class="container-road">
+
+      <div class="phaseCards">
+          <div class="r-mapDetails">
+                <h1 class="h1-road"> ROAD MAP</h1>
+                      <div class="desc">
+                            <p class="p-road"> The journey to the Urban Warrior's Stadium <br/> in the Metaverse </p>
+                      </div>
+           </div>
+
+           <div class="col-container">
+      <ul class="cards-road">
+
+                 {/* <div class="col-mid-top"> */}
+                  <li class="card-road">
+                    <div>
+                      <h1 class="card-title-3">PHASE 1</h1>
+                      <div class="card-content">
+                      Launch Urban Warriors Discord. <br/>  <br/>
                 Launch Urban Warriors GOLDEN BOY COLLECTION. <br/> 
-                <div className="after">
-                <div className="description2">
-                <strong>Phase 2 Milestone Requirements:</strong> <br/> 
-                </div>
-                75 GIVEAWAYS. <br/> 
-                75 WHITELIST SPOTS ARE GONE. <br/> 
-                3K FOLLOWERS ON TWITTER.
-                </div>
-          </p>
-          {/* <p className="description">
-            There will be the only four of these NFTs we ever make, so be sure
-            not to miss out!
-          </p>
-          <p className="description">50% of proceeds go to charity.</p>
-          <a href="#" className="link">
-            Check them out <BsArrowRight />
-          </a> */}
-        </div>
-        {/* <div className="image">
-          <img src={release1} alt="release" />
-          <div className="ellipse pink"></div>
-        </div> */}
-      </div>
+                      </div>
+                    </div>
+                    {/* <div class="card-link-wrapper">
+                      <a href="" class="card-link">Learn More</a>
+                    </div> */}
+                  </li>
+            {/* </div> */}
 
-      {/* Next Phase */}
+            {/* <div class="col-mid-center"> */}
+                  <li class="card-road">
+                    <div>
+                      <h1 class="card-title-3">Pre-PHASE 2  <br/> <p class="notice2"> MILESTONE REQUIREMENTS </p></h1>
+                      <div class="card-content">
+                      75 GIVEAWAYS. <br/>  <br/> 
+                75 WHITELIST SPOTS ARE GONE. <br/>  <br/> 
+                      <p>3K FOLLOWERS ON TWITTER.  </p>
+                <a href="https://twitter.com/urbanwarriornft?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @urbanwarriornft</a>  
+                    </div>
+                    </div>
+                    {/* <div class="card-link-wrapper">
+                      <a href="" class="card-link">Learn More</a>
+                    </div> */}
+                  </li>
+            {/* </div> */}
 
-      <div className="release green">
-        {/* <div className="card-container">
-          <Card
-            image={release2}
-            series="Gloop Series"
-            title="Purple Man"
-            price={3.95}
-            tag="1094"
-            time={2}
-          />
-          <div className="ellipse orange"></div>
-        </div> */}
-        <div className="content">
-          <h2 className="title">PHASE 2</h2>
-          <p className="description">
+            {/* <div class="col-mid-right"> */}
+                  <li class="card-road">
+                    <div>
+                      <h1 class="card-title-3">Phase 2</h1>
+                      <div class="card-content">
+                      <p className="description">
                <div className="description2">
-               <strong> Launch  WRECKLESS HANDS (2ND GEN)
-               </strong> 
+               <p class="notice2"><strong> Launch <br/> <p class="notice5"> WRECKLESS HANDS (2ND GEN) </p>
+               </strong></p>
                </div> 
                 IN GAME COMPATIBLE.<br/> 
                 AUGMENTED REALITY DIGITAL CANVASES. <br/>
@@ -70,7 +68,7 @@ export default function Release() {
                 <div className="after">
 
                 <div className="description2">
-                <strong>Launch JET URBAN CLOTHING WEARABLES </strong> <br/> 
+                <p class="notice2"><strong> Launch <br/> <p class="notice5">JET URBAN CLOTHING WEARABLES</p> </strong></p> 
                </div> 
        
                 IN GAME COMPATIBLE. <br/> 
@@ -78,113 +76,87 @@ export default function Release() {
                 MERCHANDISE.
                 </div>
                 </p>
+                      </div>
+                    </div>
+                    {/* <div class="card-link-wrapper">
+                      <a href="" class="card-link">Learn More</a>
+                    </div> */}
+                  </li>
+            {/* </div> */}
             
+            {/* <div class="col-mid-top"> */}
+                  <li class="card-road">
+                    <div>
+                      <h1 class="card-title-3">Phase 3</h1>
+                      <div class="card-content">
+                      <div className="description2">
+                <p class="notice2"><strong> Launch <br/> <p class="notice5">AUGMENTED REALITY APP</p> </strong></p> 
+               </div> 
+                      </div>
+                    </div>
+                    {/* <div class="card-link-wrapper">
+                      <a href="" class="card-link">Learn More</a>
+                    </div> */}
+                  </li>
+            {/* </div> */}
 
-        </div>
-      </div>
-      
-      {/* Next Phase */}
-      
-      <div className="release orange">
-        <div className="content">
-          <h2 className="title">PHASE 3</h2>
-          <p className="description">
-                LAUNCH AUGMENTED REALITY APP<br/>
-                
-                {/* <div className="after">
-                <strong>Phase 2 Milestone Requirements:</strong> <br/> 
-                75 GIVEAWAYS & <br/> 
-                75 WHITELIST SPOTS ARE GONE & <br/> 
-                3K FOLLOWERS ON TWITTER 
-                </div> */}
-          </p>
-          {/* <p className="description">
-            There will be the only four of these NFTs we ever make, so be sure
-            not to miss out!
-          </p>
-          <p className="description">50% of proceeds go to charity.</p>
-          <a href="#" className="link">
-            Check them out <BsArrowRight />
-          </a> */}
-        </div>
-        {/* <div className="image">
-
-
-        </div> */}
-      </div>
-
-      {/* Next Phase */}
-
-      <div className="release green">
-        {/* <div className="card-container">
-          <Card
-            image={release2}
-            series="Gloop Series"
-            title="Purple Man"
-            price={3.95}
-            tag="1094"
-            time={2}
-          />
-          <div className="ellipse orange"></div>
-        </div> */}
-        <div className="content">
-          <h2 className="title">PHASE 4</h2>
-          <p className="description">
-                Launch Urban Warriors Native Token<br/> 
-                Launch Rewards Smart contract <br/>
-                Launch Breeding smart contract <br/> 
+            {/* <div class="col-mid-center"> */}
+                  <li class="card-road">
+                    <div>
+                      <h1 class="card-title-3">Phase 4</h1>
+                      <div class="card-content">
+                    
+                      <p class="notice2">Launch <br/> <p class="notice5">Urban Warriors Native Token </p> </p><br/>  <br/>
+                      <p class="notice2"> Launch <br/> <p class="notice5">Rewards Smart contract</p> </p> <br/> <br/>
+                      <p class="notice2"> Launch <br/> <p class="notice5">Breeding smart contract <br/> </p> </p>
              
-             
-                </p>
-        </div>
-      </div>
-      
-      <div className="release orange">
-        <div className="content">
-          <h2 className="title">PHASE 5</h2>
-          <p className="description">
-                Launch Digital Real Estate Property <br/>
-                IN GAME COMPATIBLE <br/> 
+                    </div>
+                    </div>
+            
+              
+                    {/* <div class="card-link-wrapper">
+                      <a href="" class="card-link">Learn More</a>
+                    </div> */}
+                  </li>
+
+            {/* </div> */}
+
+            {/* <div class="col-mid-right"> */}
+                  <li class="card-road">
+                    <div>
+                      <h1 class="card-title-3">Phase 5</h1>
+                      <div class="card-content">
+                      <p class="notice2">Launch <br/><p class="notice5"> Digital Real Estate Property</p></p>   <br/><br/>
+                IN GAME COMPATIBLE <br/> <br/>
                 RENT OR LEASE  DIGITAL REAL ESTATES
+                
+                      </div>
+                    </div>
+                    {/* <div class="card-link-wrapper">
+                      <a href="" class="card-link">Learn More</a>
+                    </div> */}
+                  </li>
+         
+            {/* </div> */}
 
-            
-          </p>
-          {/* <p className="description">
-            There will be the only four of these NFTs we ever make, so be sure
-            not to miss out!
-          </p>
-          <p className="description">50% of proceeds go to charity.</p>
-          <a href="#" className="link">
-            Check them out <BsArrowRight />
-          </a> */}
-        </div>
-        {/* <div className="image">
-      
-        </div> */}
-      </div>
+               {/* <div class="col-mid-right"> */}
+               <li class="card-road">
+                    <div>
+                      <h1 class="card-title-3">Phase 6</h1>
+                      <div class="card-content">
+                        <p>Launch into P2E GAMING  METAVERSE  🚀 </p>
+                      </div>
+                    </div>
+                    {/* <div class="card-link-wrapper">
+                      <a href="" class="card-link">Learn More</a>
+                    </div> */}
+                  </li>
+         
+            {/* </div> */}
+            </ul>  
 
-      {/* Next Phase */}
-
-      <div className="release green">
-        {/* <div className="card-container">
-          <Card
-            image={release2}
-            series="Gloop Series"
-            title="Purple Man"
-            price={3.95}
-            tag="1094"
-            time={2}
-          /> *
-          <div className="ellipse orange"></div>
-        </div> */}
-        <div className="content">
-          <h2 className="title">PHASE 6</h2>
-          <p className="description">
-                Launch into P2E GAMING  METAVERSE <br/>
-               
-          </p>
-        </div>
-      </div>
+      </div> 
+      {/* Col Container */}
 
 
 
@@ -197,11 +169,10 @@ export default function Release() {
 
 
 
+      </div> 
+      {/* Phase Cards */}
 
-    </div>
-
-
-
+   </div> // Container 
 
   );
 }

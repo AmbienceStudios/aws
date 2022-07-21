@@ -11,6 +11,11 @@ export default function Free() {
   <div id="p-utilities" class="container-free">
     
     <div className="notice-container">
+          
+    <div className="notice4">    
+    as a security measure 
+    </div>
+          
           <div className="notice">
           Jet urban clothing admin locked the opensea account @urbanwarriors wallet address <br/> 
          
@@ -18,7 +23,7 @@ export default function Free() {
 
            
           <div className="notice2">
-          0x13E051C962Ed2870F9121bF5F827F653355CA10D as a security measure 
+          0x13E051C962Ed2870F9121bF5F827F653355CA10D
           </div>
          
           <div className="notice">
@@ -26,10 +31,15 @@ export default function Free() {
         
           </div>
 
-          <div className="notice">
-          All previous holders of the golden boy collection will be air dropped the nfts the previous when minting from (official name & link to this site) goes live
+          <br/>
+
+          <div className="notice3">
+          All previous holders of the golden boy collection <br/> will be air dropped the nfts the previous when minting from <br/> (official name & link to this site) goes live
           </div>
-          </div>
+    </div>
+
+
+
     <h1>utilities</h1>
 
     <ul class="cards">
