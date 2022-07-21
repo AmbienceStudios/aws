@@ -21,22 +21,15 @@
 
 
 
-  <script type="module">
-      import three from 'https://cdn.skypack.dev/three';
-      import threejsOrbitControls from 'https://cdn.skypack.dev/threejs-orbit-controls';
-      import threeGltfLoader from 'https://cdn.skypack.dev/three-gltf-loader';
-    </script>
-
-
-
   </head>
 
 
 
   <body>
     
-    <div class="flex-container">
+   
 
+<<<<<<< HEAD
       <div class="main-content">
           <h1 class="notice2">a Fashion NFT <span class="notice3">Decentralized Project</span></h1>
           <span class="notice">The mission is to teach people how to invest & understand the web3 space so that we can 
@@ -60,14 +53,65 @@
 
 
     <div id="root" className="placement"></div>
+=======
+    <div class="preloader overlay">
+      <div class="wrapper">
+        <div class="icon"></div>
+        
+          <p class="title"> LOADING</p>
+          <p class="title-scroll"> SCROLL DOWN <br/> TO VIEW SITE</p> <br/><br/><br/><br/>
+          <img class="logo-3D" src="%PUBLIC_URL%/logo2.png"/>
+          <p class="desc"></p>
+      </div>
+    </div>
 
-   
+    <div>
+      <Configurator.js></Configurator.js>
+    </div>
+
+    <div class="screen-fader overlay"></div>	
+
+    <div id="root" class="placement"></div>
+>>>>>>> parent of 727796f (3D Added- Testing Live)
+
+    <footer>
+      <div class="footer-content">
+          <h3>Foolish Developer</h3>
+          <p>Raj Template is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy; <a href="#">Foolish Developer</a>  </p>
+                  <div class="footer-menu">
+                    <ul class="f-menu">
+                      <li><a href="">Home</a></li>
+                      <li><a href="">About</a></li>
+                      <li><a href="">Contact</a></li>
+                      <li><a href="">Blog</a></li>
+                    </ul>
+                  </div>
+      </div>
+
+  </footer>
 
 <!-- Load required JS file here -->
 
  
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/three.min.js"></script>
+  <script type="text/javascript" src="js/RectAreaLightUniformsLib.js"></script>
+  <script type="text/javascript" src="js/OrbitControls.js"></script>
+  <script type="text/javascript" src="js/GLTFLoader.js"></script>
+  <script type="text/javascript" src="js/tween.min.js"></script>
+  <script type="text/javascript" src="js/stats.min.js"></script>
+  <script type="text/javascript" src="js/Configurator.js"></script>
 
 
 
@@ -82,31 +126,17 @@
     }
 
 
-.l-3D {
-  transform: scale(.1);
-  width: 200%;
-
-  position: absolute;
-  right: -25rem;
-  bottom: 30rem;
-  perspective: none;
-  transition: none;
-
-
+.logo-3D {
+  transform: scale(.8);
 }
-
-img:hover {
-    transform: translatez(0px);
-  }
 
 
 .title-scroll {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
-  padding-top: 15rem;
+  padding-top: 1rem;
   letter-spacing: .5rem;
-  text-align: center;
 }
 
 footer{
@@ -238,6 +268,7 @@ display: block;
 
 }
 
+<<<<<<< HEAD
 
 
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
@@ -334,6 +365,8 @@ h1, span{
     width: 60%;
 }
 
+=======
+>>>>>>> parent of 727796f (3D Added- Testing Live)
   </style>
 
 </html>

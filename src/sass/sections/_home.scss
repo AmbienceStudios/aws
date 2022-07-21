@@ -31,7 +31,10 @@
         font-size: 1.5rem;
       }
 
-  
+      .notice {
+        color: var(--accent-color3);
+        font-size: 1rem;
+      }
 
       .notice2 {
         color: red;
@@ -119,17 +122,17 @@
           left: .5rem;
         }
   
-        // .notice {
-        //   position: relative;
-        //   color: var(--accent-color3);
-        //  transform: scale(.9);
-        //   margin: auto;
-        //   padding-right: 20%;
-        //   position: relative;
-        //   text-align: center;
-        //   left: .5rem;
+        .notice {
+          position: relative;
+          color: var(--accent-color3);
+         transform: scale(.9);
+          margin: auto;
+          padding-right: 20%;
+          position: relative;
+          text-align: center;
+          left: .5rem;
           
-        //   }
+          }
 
           .notice2 {
             color:rgb(219, 27, 27);
